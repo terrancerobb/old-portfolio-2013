@@ -1,6 +1,6 @@
 
 
-GitHub Flavored Markdown
+Terrance Robb Personal Site
 ================================
 
 *View the [live page on GitHub](http://terrancerobb.github.io/portfolio/).*
