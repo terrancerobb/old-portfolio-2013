@@ -217,9 +217,8 @@ a.ribbonCTA:hover{
 }
 .oneThird.aboutMe h2{
 	font-family: 'Oswald', sans-serif;
-	font-size: 36px;
+	font-size: 33px;
 	font-weight: 400;
-	letter-spacing: 1px;
 }
 .oneThird.aboutMe h2:before{
 	content:url(../img/about.png);
