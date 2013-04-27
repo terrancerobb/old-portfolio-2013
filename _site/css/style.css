@@ -29,7 +29,7 @@ body{
 }
 body.homepage{
 	background-color: #669999;
-	background-image: url(./img/homeBG.jpg);
+	background-image: url(../img/homeBG.jpg);
 	background-position: top center;
 	background-repeat: no-repeat;
 }
@@ -64,7 +64,7 @@ header nav ul li a{
 	padding: 0 5px;
 }
 div.mainTitle h1::before{
-	content: url(./img/logo.png);
+	content: url(../img/logo.png);
 	position: absolute;
 }
 div.mainTitle{
@@ -123,7 +123,7 @@ div#content{
 	padding: 6px 15px 6px 5px;
 }
 .homeFirst div.sep{
-	background-image: url(./img/sep.png);
+	background-image: url(../img/sep.png);
 	background-repeat: no-repeat;
 	clear: both;
 	width: 418px;
@@ -222,6 +222,6 @@ a.ribbonCTA:hover{
 	letter-spacing: 1px;
 }
 .oneThird.aboutMe h2:before{
-	content:url(./img/about.png);
+	content:url(../img/about.png);
 	margin-right: 10px;
 }
