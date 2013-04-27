@@ -1,3 +1,3 @@
 auto: true
-server: true
 server_port: 8081
+url: "http://terrancerobb.github.io/portfolio/"
