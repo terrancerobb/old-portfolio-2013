@@ -1,0 +1,227 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.chromeframe {position: absolute; top: 0;}
+body {font: 13px Helmet, Freesans, sans-serif;}
+body, select, input, textarea {color: #333;}
+a {color: #03f;}
+a:hover {color: #69f;}
+::-moz-selection{background: rgba(0,0,0,0.5); color: #fff; text-shadow: none;}
+::selection {background: rgba(0,0,0,0.5); color: #fff; text-shadow: none;} 
+a:link {-webkit-tap-highlight-color: rgba(0,0,0,0.5);} 
+ins {background-color: #fcd700; color: #000; text-decoration: none;}
+mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
+input:-moz-placeholder { color:#a9a9a9; }
+textarea:-moz-placeholder { color:#a9a9a9; }
+
+/* Print styles!
+-------------------------------------------------------------------------------*/
+@media print {}
+
+/* End HTML5 Reset base
+-------------------------------------------------------------------------------*/
+@media only screen 
+and (min-width : 1920px) {
+	body{
+		background-size: cover;
+	}
+}
+body{
+	font-family: Tahoma, sans-serif;
+}
+body.homepage{
+	background-color: #669999;
+	background-image: url(/img/homeBG.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+header{
+	margin: 0 auto;
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);
+	height: 60px;
+}
+header nav{
+	font-family: 'Oswald', sans-serif;
+	float: right;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+header nav ul{
+	margin: 15px;
+}
+header nav ul li{
+	display: inline;
+	margin: auto 13px;
+}
+header nav ul li a{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	text-decoration: none;
+}
+.wrapper, .innerHeader{
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 5px;
+}
+div.mainTitle h1::before{
+	content: url(/img/logo.png);
+	position: absolute;
+}
+div.mainTitle{
+	width: 430px;
+	margin: 0;
+	float: left;
+	position: relative;
+}
+div.mainTitle h1 a{
+	color: #fff;
+	margin-left: 100px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 55px;
+	text-decoration: none;
+}
+div#content{
+	width: 960px;
+}
+.homeFirst{
+	color: #fff;
+	margin: 75px auto;
+}
+.homeFirst .left{
+	display: inline-block;
+	width: 460px;
+	font-family: 'Oswald', sans-serif;
+}
+.homeFirst .left span{
+	display: block;
+	font-size: 69px;
+	font-weight: 300;
+	letter-spacing: -3px;
+	text-transform: uppercase;
+}
+.homeFirst .left span:first-of-type{
+	font-size: 80px;
+	font-weight: 400;
+	line-height: 45px;
+}
+.homeFirst .right{
+	display: inline-block;
+}
+.homeFirst .right p{
+	width: 480px;
+}
+.homeFirst .right p span{
+	background-color: rgba(0,0,0,0.5);
+	display: inline-block;
+	font-size: 36px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	line-height: 35px;
+	margin: 2px;
+	padding: 6px 15px 6px 5px;
+}
+.homeFirst div.sep{
+	background-image: url(/img/sep.png);
+	background-repeat: no-repeat;
+	clear: both;
+	width: 418px;
+	height: 33px;
+	margin: 18px auto;
+	padding: 0;
+}
+.ribbonCTA{
+	background-color: #2da5bb;
+	color: #fff;
+	display: block;
+	font-family: 'Oswald', sans-serif;
+	font-size: 28px;
+	font-weight: 400;
+	height: 51px;
+	margin: 30px auto 128px;
+	padding: 5px 0;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 240px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+a.ribbonCTA:hover{
+	background-color: #3CB4C9;
+	color: #fff;
+}
+.ribbonCTA:before, .ribbonCTA:after{
+	content: "";
+	position: absolute;
+	display: block;
+	top: -10px;
+	border: 23px solid #158093;
+	z-index: -1;
+}
+.ribbonCTA:before {
+	left: -73px;
+	border-right-width: 60px;
+	border-left-color: transparent;
+}
+.ribbonCTA:after{
+	right: -73px;
+	border-left-width: 60px;
+	border-right-color: transparent;
+}
+.ribbonCTA span:before, .ribbonCTA span:after{
+	content: "";
+	position: absolute;
+	display: block;
+	border-style: solid;
+	top: -10px;
+}
+.ribbonCTA span:before{
+	border-color:  transparent transparent #194d56 transparent;
+}
+.ribbonCTA span:after{
+	border-color: transparent transparent #194d56 transparent;
+}
+.ribbonCTA span:before{
+	left: 0;
+	border-width: 0 0 10px 10px ;
+}
+.ribbonCTA span:after{
+	right: 0;
+	border-width: 0 10px 10px 0;
+}
+.homeSecond{
+	width: 100%;
+	background-color: #fff;
+	overflow: hidden;
+}
+.oneThird{
+	float: left;
+	margin: 5px;
+	padding: 3px;
+	width: 304px;
+}
+.homeSecond .oneThird{
+	color: #383838;
+}
+.oneThird.aboutMe p{
+	color: #7c7c7c;
+	font-family: Tahoma, sans-serif;
+	font-size: 16px;
+	margin-top: 8px;
+}
+.oneThird.aboutMe h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.oneThird.aboutMe h2:before{
+	content:url(/img/about.png);
+	margin-right: 10px;
+}
