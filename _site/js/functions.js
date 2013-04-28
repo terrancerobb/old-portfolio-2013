@@ -8,6 +8,36 @@
 // sample CSS: html[data-useragent*='Chrome/13.0'] { ... }
 
 
+$(function() {
+
+    var $el, leftPos, newWidth,
+        $mainNav = $("header nav ul");
+    
+    $mainNav.append("<li id='magic-line'></li>");
+    var $magicLine = $("#magic-line");
+    
+    $magicLine
+        .width($(".current_page_item").width())
+        .css("left", $(".current_page_item a").position().left)
+        .data("origLeft", $magicLine.position().left)
+        .data("origWidth", $magicLine.width());
+        
+    $("header nav ul li a").hover(function() {
+        $el = $(this);
+        leftPos = $el.position().left;
+        newWidth = $el.parent().width();
+        $magicLine.stop().animate({
+            left: leftPos,
+            width: newWidth
+        });
+    }, function() {
+        $magicLine.stop().animate({
+            left: $magicLine.data("origLeft"),
+            width: $magicLine.data("origWidth")
+        });    
+    });
+});
+
 // remap jQuery to $
 (function($){
 

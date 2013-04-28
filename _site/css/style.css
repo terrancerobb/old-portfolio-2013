@@ -47,16 +47,21 @@ header nav{
 }
 header nav ul{
 	margin: 15px;
+	position: relative;
 }
 header nav ul li{
 	display: inline;
-	margin: auto 13px;
+	margin: 0 auto;
+	padding: 13px;
 }
 header nav ul li a{
 	color: #fff;
 	font-size: 20px;
 	font-weight: 300;
 	text-decoration: none;
+}
+header nav ul li a:hover{
+	color: #fff;
 }
 .wrapper, .innerHeader{
 	width: 960px;
@@ -224,3 +229,5 @@ a.ribbonCTA:hover{
 	content:url(../img/about.png);
 	margin-right: 10px;
 }
+
+#magic-line { position: absolute; bottom: -2px; left: 0; width: 100px; height: 3px; background: #e6451c; padding: 0; }
