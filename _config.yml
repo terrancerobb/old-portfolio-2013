@@ -1,5 +1,5 @@
 server: true
 auto: true
 server_port: 8081
-#url: "http://localhost:8081"
-url: "http://terrancerobb.github.io/portfolio"
+url: "http://localhost:8081"
+#url: "http://terrancerobb.github.io/portfolio"

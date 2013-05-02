@@ -226,8 +226,8 @@ a.ribbonCTA:hover{
 	font-weight: 400;
 }
 .oneThird.aboutMe h2:before{
-	content:url(../img/about.png);
+	color: #2da5bb;
+	font-size: 38px;
 	margin-right: 10px;
 }
-
 #magic-line { position: absolute; bottom: -2px; left: 0; width: 100px; height: 3px; background: #e6451c; padding: 0; }
