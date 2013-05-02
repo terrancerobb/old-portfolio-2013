@@ -24,6 +24,10 @@ and (min-width : 1920px) {
 		background-size: cover;
 	}
 }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }  
+.clearfix { zoom: 1; }
+
 body{
 	font-family: Tahoma, sans-serif;
 }
@@ -63,6 +67,7 @@ header nav ul li a{
 header nav ul li a:hover{
 	color: #fff;
 }
+#magic-line { position: absolute; bottom: -2px; left: 0; width: 100px; height: 3px; background: #e6451c; padding: 0; }
 .wrapper, .innerHeader{
 	width: 960px;
 	margin: 0 auto;
@@ -203,7 +208,7 @@ a.ribbonCTA:hover{
 .homeSecond{
 	width: 100%;
 	background-color: #fff;
-	overflow: hidden;
+	padding-top: 10px;
 }
 .oneThird{
 	float: left;
@@ -213,8 +218,9 @@ a.ribbonCTA:hover{
 }
 .homeSecond .oneThird{
 	color: #383838;
+	position: relative;
 }
-.oneThird.aboutMe p{
+.homeSecond .oneThird p{
 	color: #7c7c7c;
 	font-family: Tahoma, sans-serif;
 	font-size: 16px;
@@ -230,4 +236,42 @@ a.ribbonCTA:hover{
 	font-size: 38px;
 	margin-right: 10px;
 }
-#magic-line { position: absolute; bottom: -2px; left: 0; width: 100px; height: 3px; background: #e6451c; padding: 0; }
+.homeSecond .oneThird h3{
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+}
+.homeSecond .oneThird h3:before{
+	margin-right: 8px;
+	font-size: 22px;
+	vertical-align: 2px;
+}
+.homeSecond .oneThird.skills p{
+	font-size: 15px;
+	margin-bottom: 8px;
+}
+.homeSecond .oneThird img{
+	border: solid 8px white;
+	border-bottom-width: 28px;
+	box-shadow: 2px 2px 8px #999;
+	position: absolute; left: 11%; top: -50px;
+	-webkit-transform: rotate(4deg);
+	-moz-transform: rotate(4deg);
+	-ms-transform: rotate(4deg);
+	-o-transform: rotate(4deg);
+	transform: rotate(4deg);
+}
+.homeSecond .oneThird blockquote{
+	color: #2da5bb;
+	font-family: Georgia, serif;
+	font-size: 18px;
+	font-style: italic;
+	margin-top:240px;
+	padding: 0 10px;
+}
+.homeSecond .oneThird span{
+	float: right;
+	margin-right: 20px;
+	font-size: 16px;
+	color: #2da5bb;
+}
