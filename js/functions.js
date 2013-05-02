@@ -22,10 +22,10 @@ $(function() {
         .data("origLeft", $magicLine.position().left)
         .data("origWidth", $magicLine.width());
         
-    $("header nav ul li a").hover(function() {
+    $("header nav ul li").hover(function() {
         $el = $(this);
-        leftPos = $el.position().left;
-        newWidth = $el.parent().width();
+        leftPos = $el.position().left+13;
+        newWidth = $el.width();
         $magicLine.stop().animate({
             left: leftPos,
             width: newWidth
