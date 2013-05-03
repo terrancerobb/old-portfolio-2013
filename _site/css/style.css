@@ -284,11 +284,11 @@ a.projects {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
+    -webkit-transition: all ease-in-out 0.5s;
+    -moz-transition: all ease-in-out 0.5s;
+    -ms-transition: all ease-in-out 0.5s;
+    -o-transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.5s;
 }
 a.projects i {
     font-size: 40px;
@@ -302,31 +302,86 @@ a.projects i {
     -ms-transform: rotate(20deg);
     -o-transform: rotate(20deg);
     transform: rotate(20deg);
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
+    -webkit-transition: all ease-in-out 0.1s;
+    -moz-transition: all ease-in-out 0.1s;
+    -ms-transition: all ease-in-out 0.1s;
+    -o-transition: all ease-in-out 0.1s;
+    transition: all ease-in-out 0.1s;
 }
 a.projects:hover {
     background-color: #3CB4C9;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
+    -webkit-transition: all ease-in-out 0.1s;
+    -moz-transition: all ease-in-out 0.1s;
+    -ms-transition: all ease-in-out 0.1s;
+    -o-transition: all ease-in-out 0.1s;
+    transition: all ease-in-out 0.1s;
 }
 a.projects:hover i {
+	font-size: 45px;
     text-shadow: -2px -2px 0 #3CB4C9, 2px -2px 0 #3CB4C9, -2px 2px 0 #3CB4C9, 3px 1px 0 #3CB4C9;
     top: 3px;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
+    -webkit-transition: all ease-in-out 0.1s;
+    -moz-transition: all ease-in-out 0.1s;
+    -ms-transition: all ease-in-out 0.1s;
+    -o-transition: all ease-in-out 0.1s;
+    transition: all ease-in-out 0.1s;
     -webkit-transform: rotate(10deg);
     -moz-transform: rotate(10deg);
     -ms-transform: rotate(10deg);
     -o-transform: rotate(10deg);
     transform: rotate(10deg);
+}
+footer{
+	background-color: #111;
+	color: #ccc;
+	width: 100%;
+}
+footer .left{
+	font-family: 'Quicksand', sans-serif;
+	width: 300px;
+	padding: 15px;
+}
+footer .left ul li{
+	margin: 15px auto;
+}
+footer .left ul li a{
+	color: #ccc;
+	font-size: 30px;
+	text-decoration: none;
+	-webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
+}
+footer .left ul li a:hover{
+	color: #fff;
+	-webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -ms-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+}
+footer .left ul li i{
+	margin-right: 12px;
+	-webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
+}
+footer .left ul li a:hover i{
+	color: #2da5bb;
+	-webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -ms-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+}
+footer .subFooter{
+	background-color: #080808;
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	font-weight: 300;
+	width: 100%;
 }

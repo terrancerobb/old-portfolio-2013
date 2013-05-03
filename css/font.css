@@ -27,7 +27,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-music, .icon-envelope, .icon-search, .icon-film, .icon-th-list, .icon-signal, .icon-download-alt, .icon-headphones, .icon-camera, .icon-map-marker, .icon-camera-retro, .icon-comment, .icon-linkedin-sign, .icon-rss, .icon-github, .icon-link, .icon-google-plus-sign, .icon-facebook-sign, .icon-twitter-sign, .icon-desktop, .icon-laptop, .icon-quill, .icon-camera-2, .icon-film-2, .icon-camera-3, .icon-tag, .icon-tags, .icon-equalizer, .icon-mug, .icon-link-2, .icon-happy, .icon-facebook, .icon-google-plus, .icon-twitter, .icon-twitter-2, .icon-youtube, .icon-youtube-2, .icon-github-2, .icon-tumblr, .icon-tumblr-2, .icon-css3, .icon-html5, .icon-info-sign, .icon-lightbulb {
+.icon-music, .icon-envelope, .icon-search, .icon-film, .icon-th-list, .icon-signal, .icon-download-alt, .icon-headphones, .icon-camera, .icon-map-marker, .icon-camera-retro, .icon-comment, .icon-linkedin-sign, .icon-rss, .icon-github, .icon-link, .icon-google-plus-sign, .icon-facebook-sign, .icon-twitter-sign, .icon-desktop, .icon-laptop, .icon-quill, .icon-camera-2, .icon-film-2, .icon-camera-3, .icon-tag, .icon-tags, .icon-equalizer, .icon-mug, .icon-link-2, .icon-happy, .icon-facebook, .icon-google-plus, .icon-twitter, .icon-twitter-2, .icon-youtube, .icon-youtube-2, .icon-github-2, .icon-tumblr, .icon-tumblr-2, .icon-css3, .icon-html5, .icon-info-sign, .icon-lightbulb, .icon-home, .icon-briefcase {
 	font-family: 'terryrobb';
 	speak: none;
 	font-style: normal;
@@ -168,4 +168,10 @@ you can use the generic selector below, but it's slower:
 }
 .icon-lightbulb:before {
 	content: "\f0eb";
+}
+.icon-home:before {
+	content: "\e006";
+}
+.icon-briefcase:before {
+	content: "\e016";
 }
