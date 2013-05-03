@@ -37,21 +37,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   -->
 
-  <link rel="shortcut icon" href="{{ site.url }}/favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="{{ site.url }}/apple-touch-icon.png" />
-  <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/apple-touch-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/apple-touch-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="{{ site.url }}/apple-touch-icon-114x114.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}/apple-touch-icon-144x144.png" />
+  <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="{{ site.baseurl }}/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ site.baseurl }}/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ site.baseurl }}/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ site.baseurl }}/apple-touch-icon-144x144.png" />
   
   <!-- concatenate and minify for production -->
-  <link rel="stylesheet" href="{{ site.url }}/css/reset.css" />
-  <link rel="stylesheet" href="{{ site.url }}/css/style.css" />
-  <link rel="stylesheet" href="{{ site.url }}/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/reset.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome.min.css">
   
   <!-- This is an un-minified, complete version of Modernizr. 
      Before you move to production, you should generate a custom build that only has the detects you need. -->
-  <script src="{{ site.url }}/js/modernizr-2.6.2.dev.js"></script>
+  <script src="{{ site.baseurl }}/js/modernizr-2.6.2.dev.js"></script>
   
   <!-- Application-specific meta tags -->
   <!-- Windows 8 -->
@@ -105,7 +105,7 @@
 
 <!-- this is where we put our custom functions -->
 <!-- don't forget to concatenate and minify if needed -->
-<script src="{{ site.url }}/js/functions.js"></script>
+<script src="{{ site.baseurl }}/js/functions.js"></script>
 
 <!-- Asynchronous google analytics; this is the official snippet.
    Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.
