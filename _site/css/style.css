@@ -231,7 +231,7 @@ a.ribbonCTA:hover{
 	font-size: 33px;
 	font-weight: 400;
 }
-.oneThird.aboutMe h2:before{
+.oneThird.aboutMe h2 i{
 	color: #2da5bb;
 	font-size: 38px;
 	margin-right: 10px;
@@ -241,7 +241,7 @@ a.ribbonCTA:hover{
 	font-size: 25px;
 	font-weight: 400;
 }
-.homeSecond .oneThird h3:before{
+.homeSecond .oneThird h3 i{
 	margin-right: 8px;
 	font-size: 22px;
 	vertical-align: 2px;
@@ -270,8 +270,67 @@ a.ribbonCTA:hover{
 	padding: 0 10px;
 }
 .homeSecond .oneThird span{
-	float: right;
-	margin-right: 20px;
-	font-size: 16px;
 	color: #2da5bb;
+	float: right;
+	font-size: 16px;
+	margin-right: 20px;
+}
+a.projects{
+    background-color:#2da5bb;
+    color: #fff;
+	display: block;
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	margin: 10px auto;
+    padding: 5px 24px 5px 10px;
+	position:relative;
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 132px;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+a.projects i{
+    font-size: 32px;
+    font-style: normal;
+    position: absolute; top: -1px; right: -3px;
+    text-shadow: -2px -2px 0 #2da5bb, 2px -2px 0 #2da5bb, -2px 2px 0 #2da5bb, 3px 1px 0 #2da5bb;
+    -webkit-transform: rotate(20deg);
+	-moz-transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	-o-transform: rotate(20deg);
+	transform: rotate(20deg);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+a.projects:hover{
+	background-color: #3CB4C9;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+a.projects:hover i{
+	text-shadow: -2px -2px 0 #3CB4C9, 2px -2px 0 #3CB4C9, -2px 2px 0 #3CB4C9, 3px 1px 0 #3CB4C9;
+	top: 3px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	-ms-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+	transform: rotate(10deg);
 }
