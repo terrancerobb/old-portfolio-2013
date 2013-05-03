@@ -297,9 +297,9 @@ a.projects{
 	transition: all 0.5s;
 }
 a.projects i{
-    font-size: 32px;
+    font-size: 40px;
     font-style: normal;
-    position: absolute; top: -1px; right: -3px;
+    position: absolute; top: 0; right: -3px;
     text-shadow: -2px -2px 0 #2da5bb, 2px -2px 0 #2da5bb, -2px 2px 0 #2da5bb, 3px 1px 0 #2da5bb;
     -webkit-transform: rotate(20deg);
 	-moz-transform: rotate(20deg);
