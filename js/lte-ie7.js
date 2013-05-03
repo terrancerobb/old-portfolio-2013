@@ -7,7 +7,6 @@ window.onload = function() {
 	}
 	var icons = {
 			'icon-music' : '&#xf001;',
-			'icon-envelope' : '&#xf003;',
 			'icon-search' : '&#xf002;',
 			'icon-film' : '&#xf008;',
 			'icon-th-list' : '&#xf00b;',
@@ -49,7 +48,11 @@ window.onload = function() {
 			'icon-css3' : '&#xe014;',
 			'icon-html5' : '&#xe015;',
 			'icon-info-sign' : '&#xf05a;',
-			'icon-lightbulb' : '&#xf0eb;'
+			'icon-lightbulb' : '&#xf0eb;',
+			'icon-home' : '&#xe006;',
+			'icon-briefcase' : '&#xe016;',
+			'icon-envelope' : '&#xf003;',
+			'icon-envelope-2' : '&#xe017;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
