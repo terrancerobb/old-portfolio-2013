@@ -361,6 +361,75 @@ a.projects:hover i {
     -o-transform: rotate(10deg);
     transform: rotate(10deg);
 }
+/* ABOUT ME DESIGN */
+/*=================*/
+body.about {
+    background-color: #43483b;
+    background-image: url(../img/aboutBG.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.aboutFirst {
+    color: #fff;
+    margin: 75px auto;
+}
+.aboutFirst .left, .aboutFirst .right{
+    display: inline-block;
+    vertical-align: top;
+}
+.aboutFirst .right{
+    margin: 50px 30px 0;
+    width: 600px;
+}
+.aboutFirst .right p{
+    font-size: 25px;
+}
+.aboutFirst .right h1{
+    font-size: 125px;
+}
+.aboutFirst h1, .aboutFirst p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+h2.history{
+    background-color:white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    height:40px;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+    text-align: center;
+    width: 180px;
+}
+h2.history:before{
+    border-color: transparent transparent #fff transparent;
+    border-style: solid;
+    border-width: 0 0 40px 60px;
+    content: "";
+    height: 0px;
+    left: -60px;
+    position: absolute;
+    width: 0px;
+}
+h2.history:after{
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    border-width: 40px 0 0 60px;
+    content: "";
+    height: 0px;
+    position: absolute;
+    right: -60px;
+    width: 0px;
+}
+.aboutSecond{
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+}
+/* FOOTER DESIGN */
+/*===============*/
+
 footer{
 	background-color: #111;
     border-top: solid 8px #333;
@@ -500,4 +569,3 @@ footer .subFooter{
 	font-weight: 300;
 	width: 100%;
 }
-youtube #bb0000
