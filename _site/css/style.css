@@ -438,10 +438,13 @@ h2.history:after{
 .aboutPost .left{
     width: 625px;
 }
+.aboutPost .right{
+    width: 320px;
+}
 .aboutPost h4{
     font-family: 'Quicksand', sans-serif;
     font-size: 40px;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 40px;
     position: relative;
     text-align: right;
@@ -454,6 +457,7 @@ h2.history:after{
     letter-spacing: -1px;
     position: absolute;
     right: -10px;
+    text-shadow: none;
     top: -46px;
 }
 .aboutPost p{
