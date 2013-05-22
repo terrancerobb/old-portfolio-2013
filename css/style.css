@@ -436,10 +436,22 @@ h2.history:after{
     vertical-align: top;
 }
 .aboutPost .left{
-    width: 625px;
+    margin-right: 15px;
+    width: 610px;
 }
 .aboutPost .right{
+    background-color: #383427;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.7);
+    padding: 10px 10px 0;
     width: 320px;
+}
+.aboutPost .right h5{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
 }
 .aboutPost h4{
     font-family: 'Quicksand', sans-serif;
@@ -452,13 +464,13 @@ h2.history:after{
 .aboutPost h4:after{
     color: #383427;
     content: "..........................................................................";
-    font-family: Times, serif;
+    font-family: Tahoma, Verdana;
     font-size: 129px;
     letter-spacing: -1px;
     position: absolute;
     right: -10px;
     text-shadow: none;
-    top: -46px;
+    top: -50px;
 }
 .aboutPost p{
     color: #7c7c7c;
