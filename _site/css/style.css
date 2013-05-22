@@ -429,7 +429,8 @@ h2.history:after{
     padding: 20px;
 }
 .aboutPost{
-    margin-top: 20px;
+    margin-top: 35px;
+    margin-bottom: 25px;
 }
 .aboutPost .left, .aboutPost .right{
     display: inline-block;
@@ -441,10 +442,16 @@ h2.history:after{
 }
 .aboutPost .right{
     background-color: #383427;
-    border: 1px solid rgba(0,0,0,0.1);
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.7);
+    background-repeat: no-repeat;
+    border: 1px solid #000;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    margin-top: 51px;
     padding: 10px 10px 0;
     width: 320px;
+}
+.aboutPost .right img{
+    border: solid 1px #000;
+    box-shadow: 0 0 20px #000;
 }
 .aboutPost .right h5{
     color: #fff;
@@ -454,28 +461,32 @@ h2.history:after{
     text-align: center;
 }
 .aboutPost h4{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     position: relative;
-    text-align: right;
 }
 .aboutPost h4:after{
     color: #383427;
     content: "..........................................................................";
     font-family: Tahoma, Verdana;
-    font-size: 129px;
+    font-size: 60px;
     letter-spacing: -1px;
     position: absolute;
-    right: -10px;
+    right: -13px;
     text-shadow: none;
-    top: -50px;
+    top: 0;
 }
 .aboutPost p{
     color: #7c7c7c;
     font-family: Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.aboutPost p a{
+    color: #e6451c;
+    text-decoration: none;
 }
 /* FOOTER DESIGN */
 /*===============*/
