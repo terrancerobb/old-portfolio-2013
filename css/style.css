@@ -428,19 +428,19 @@ h2.history:after{
     width: 100%;
     padding: 20px;
 }
-.aboutPost{
+.aboutSecond .wrapper section{
     margin-top: 35px;
     margin-bottom: 25px;
 }
-.aboutPost .left, .aboutPost .right{
+.aboutSecond .wrapper section .left, .aboutSecond .wrapper section .right{
     display: inline-block;
     vertical-align: top;
 }
-.aboutPost .left{
+.aboutSecond .wrapper section .left{
     margin-right: 15px;
     width: 610px;
 }
-.aboutPost .right{
+.aboutSecond .wrapper section .right{
     background-color: #383427;
     background-repeat: no-repeat;
     border: 1px solid #000;
@@ -449,25 +449,25 @@ h2.history:after{
     padding: 10px 10px 0;
     width: 320px;
 }
-.aboutPost .right img{
+.aboutSecond .wrapper section .right img{
     border: solid 1px #000;
     box-shadow: 0 0 20px #000;
 }
-.aboutPost .right h5{
+.aboutSecond .wrapper section .right h5{
     color: #fff;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     font-weight: 400;
     text-align: center;
 }
-.aboutPost h4{
+.aboutSecond .wrapper section h4{
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 30px;
     position: relative;
 }
-.aboutPost h4:after{
+.aboutSecond .wrapper section h4:after{
     color: #383427;
     content: ".....................................";
     font-family: Tahoma, Verdana;
@@ -478,13 +478,13 @@ h2.history:after{
     text-shadow: 5px 5px 0 #eee;
     top: 0;
 }
-.aboutPost p{
+.aboutSecond .wrapper section p{
     color: #393939;
     font-family: Tahoma, sans-serif;
     font-size: 16px;
     margin-bottom: 12px;
 }
-.aboutPost p a{
+.aboutSecond .wrapper section p a{
     color: #e6451c;
     text-decoration: none;
 }
