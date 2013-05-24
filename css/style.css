@@ -85,6 +85,12 @@ div.mainTitle h1 a::before {
     position: absolute;
     left: 0;
 }
+div.mainTitle h1 a.nologo{
+    margin-left: 0;
+}
+div.mainTitle h1 a.nologo:before{
+    content:"";
+}
 div.mainTitle {
     width: 430px;
     margin: 0;
@@ -374,13 +380,14 @@ body.about {
 }
 .aboutFirst {
     color: #fff;
-    margin: 75px auto;
+    margin: 75px auto 0;
 }
 .aboutFirst .left, .aboutFirst .right{
     display: inline-block;
     vertical-align: top;
 }
 .aboutFirst .right{
+    height: 500px;
     margin: 10px 30px 0;
     width: 600px;
 }
@@ -416,16 +423,30 @@ body.about {
     display: block;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#56534c',GradientType=0 ); /* IE6-9 */
     font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
     margin: 30px auto 0;
     padding: 5px;
     text-align: center;
     text-decoration: none;
     text-shadow: 2px 2px #000;
+    text-transform: uppercase;
     width: 400px;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -ms-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
 }
 .aboutFirst .right a:hover{
-    background: #555555;
     color: #fff;
+    box-shadow: 0 5px 7px #000;
+    margin: 27px auto 3px;
+    -webkit-transition: all ease-in-out 0.1s;
+    -moz-transition: all ease-in-out 0.1s;
+    -ms-transition: all ease-in-out 0.1s;
+    -o-transition: all ease-in-out 0.1s;
+    transition: all ease-in-out 0.1s;
 }
 h2.history{
     background-color: #222;
