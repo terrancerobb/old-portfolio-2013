@@ -38,11 +38,11 @@
 <header>
     <div class="innerHeader">
         <div class="mainTitle">
-            <h1><a href="/">Terry Robb</a></h1>
+            <h1><a href="{{ site.url }}">Terry Robb</a></h1>
         </div>
         <nav>
             <ul>
-                <li{% if page.bodyclass == "homepage" %} class="current_page_item"{% endif %}><a href="/">Home</a></li><li><a href="#">Blog</a></li><li{% if page.bodyclass == "about" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/about/">About</a></li><li><a href="#">Works</a></li><li><a href="#">Contact</a></li>
+                <li{% if page.bodyclass == "homepage" %} class="current_page_item"{% endif %}><a href="{{ site.url }}">Home</a></li><li><a href="#">Blog</a></li><li{% if page.bodyclass == "about" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/about/">About</a></li><li><a href="#">Works</a></li><li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </div>
