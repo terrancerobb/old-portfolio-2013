@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="{{ site.url }}/css/font.css" />
     <!--[if lte IE 7]><script src="{{ site.url }}/js/lte-ie7.js"></script><![endif]-->
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Quicksand:400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:500,300' rel='stylesheet' type='text/css'>
 </head>
 <body{% if page.bodyclass %} class="{{ page.bodyclass }}"{% endif %}>
 <header>
@@ -42,7 +42,7 @@
         </div>
         <nav>
             <ul>
-                <li class="current_page_item"><a href="#">Home</a></li><li><a href="#">Blog</a></li><li><a href="{{ site.url }}/about/">About</a></li><li><a href="#">Works</a></li><li><a href="#">Contact</a></li>
+                <li{% if page.bodyclass == "homepage" %} class="current_page_item"{% endif %}><a href="#">Home</a></li><li><a href="#">Blog</a></li><li{% if page.bodyclass == "about" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/about/">About</a></li><li><a href="#">Works</a></li><li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </div>
