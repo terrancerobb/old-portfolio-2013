@@ -1,0 +1,49 @@
+<!doctype html>
+
+<!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 ie-lt10 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head id="terrancerobb-portfolio" data-template-set="html5-reset">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Terry Robb{% if page.title %} | {{ page.title }}{% endif %}</title>
+    {% if page.metatitle %}<meta name="title" content="{{ page.metatitle }}" />{% endif %}
+    {% if page.metadesc %}<meta name="description" content="{{ page.metadesc }}" />{% endif %}
+    <meta name="author" content="Terry Robb II" />
+    <meta name="author" content="Terry Robb II" />
+    <meta name="Copyright" content="Terry Robb II" />
+    <meta name="twitter:site" content="@terrancerobb">
+    <meta name="twitter:creator" content="@terrancerobb">
+    <meta name="twitter:title" content="Terry Robb{% if page.title %} | {{ page.title }}{% endif %}">
+    {% if page.metadesc %}<meta name="twitter:description" content="{{ page.metadesc }}">{% endif %}
+    <meta property="og:title" content="Terry Robb{% if page.title %} | {{ page.title }}{% endif %}" />
+    {% if page.metadesc %}<meta property="og:description" content="{{ page.metadesc }}" />{% endif %}
+    <meta property="og:image" content="" />
+    <link rel="shortcut icon" href="{{ site.url }}/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="{{ site.url }}/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.url }}/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}/apple-touch-icon-144x144.png" />
+    <link rel="stylesheet" href="{{ site.url }}/css/reset.css" />
+    <link rel="stylesheet" href="{{ site.url }}/css/style.css" />
+    <link rel="stylesheet" href="{{ site.url }}/css/font.css" />
+    <!--[if lte IE 7]><script src="{{ site.url }}/js/lte-ie7.js"></script><![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:500,300' rel='stylesheet' type='text/css'>
+    {% if page.bodyclass == "works" %}<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>{% endif %}
+</head>
+<body{% if page.bodyclass %} class="{{ page.bodyclass }}"{% endif %}>
+<header>
+    <div class="innerHeader">
+        <div class="mainTitle">
+            <h1><a{% if page.bodyclass == "about" %} class="nologo"{% endif %} href="{{ site.url }}">Terry Robb</a></h1>
+        </div>
+        <nav>
+            <ul>
+                <li{% if page.bodyclass == "homepage" %} class="current_page_item"{% endif %}><a href="{{ site.url }}">Home</a></li><li{% if page.bodyclass == "blog" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/blog/">Blog</a></li><li{% if page.bodyclass == "about" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/about/">About</a></li><li{% if page.bodyclass == "works" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/works/">Works</a></li><li{% if page.bodyclass == "contact" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/contact/">Contact</a></li>
+        </nav>
+    </div>
+</header>

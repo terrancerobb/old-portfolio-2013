@@ -448,7 +448,7 @@ body.about {
     -o-transition: all ease-in-out 0.1s;
     transition: all ease-in-out 0.1s;
 }
-h2.history{
+h2.topTab{
     background-color: #222;
     color: #fff;
     font-family: 'Oswald', sans-serif;
@@ -460,7 +460,7 @@ h2.history{
     text-align: center;
     width: 180px;
 }
-h2.history:before{
+h2.topTab:before{
     border-color: transparent transparent #222 transparent;
     border-style: solid;
     border-width: 0 0 40px 60px;
@@ -470,7 +470,7 @@ h2.history:before{
     position: absolute;
     width: 0px;
 }
-h2.history:after{
+h2.topTab:after{
     border-color: transparent transparent transparent #222;
     border-style: solid;
     border-width: 40px 0 0 60px;
@@ -480,34 +480,34 @@ h2.history:after{
     right: -60px;
     width: 0px;
 }
-.aboutSecond{
+.darkSecond{
     background-color: #222;
     width: 100%;
     padding: 20px;
 }
-.aboutSecond .wrapper section{
+.darkSecond .wrapper section{
     margin-top: 35px;
     margin-bottom: 25px;
 }
-.aboutSecond .wrapper section .left, .aboutSecond .wrapper section .right{
+.darkSecond .wrapper section .left, .darkSecond .wrapper section .right{
     display: inline-block;
     vertical-align: top;
 }
-.aboutSecond .wrapper section .left{
+.darkSecond .wrapper section .left{
     margin-right: 15px;
     width: 610px;
 }
-.aboutSecond .wrapper section .right{
+.darkSecond .wrapper section .right{
     background-color: #333;
     background-repeat: no-repeat;
     margin-top: 51px;
     padding: 10px 10px 0;
     width: 320px;
 }
-.aboutSecond .wrapper section .right img{
+.darkSecond .wrapper section .right img{
     border: solid 5px #666;
 }
-.aboutSecond .wrapper section .right h5{
+.darkSecond .wrapper section .right h5{
     color: #000;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
@@ -515,7 +515,7 @@ h2.history:after{
     text-align: center;
     text-shadow: 0 1px 0 #555;
 }
-.aboutSecond .wrapper section h4{
+.darkSecond .wrapper section h4{
     color: #ddd;
     font-family: 'Raleway', sans-serif;
     font-size: 35px;
@@ -523,7 +523,7 @@ h2.history:after{
     margin-bottom: 45px;
     position: relative;
 }
-.aboutSecond .wrapper section h4:after{
+.darkSecond .wrapper section h4:after{
     color: #555;
     content: ".....................................";
     font-family: Tahoma, Verdana;
@@ -534,15 +534,67 @@ h2.history:after{
     text-shadow: 7px 7px 0 #333;
     top: 0;
 }
-.aboutSecond .wrapper section p{
+.darkSecond .wrapper section p{
     color: #ccc;
     font-family: Tahoma, sans-serif;
     font-size: 16px;
     margin-bottom: 12px;
 }
-.aboutSecond .wrapper section p a{
+.darkSecond .wrapper section p a{
     color: #e6451c;
     text-decoration: none;
+}
+/* WORKS PAGE DESIGN */
+/*===================*/
+body.works {
+    background-color: #47759d;
+    background-image: url(../img/worksBG.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.works div.worksTop{
+    padding: 75px 0;
+}
+div.worksTop ul li{
+    display: inline;
+    padding: 20px 27px 20px 0;
+}
+div.worksTop ul li a{
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #eee;
+}
+div.worksTop ul li span{
+    font-size: 28px;
+}
+div.worksTop ul li a:hover span{
+    color: #63B7FF;
+}
+body.works div.worksTop h2{
+    color: #303942;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 120px;
+    font-weight: 500;
+    text-shadow: -1px 1px 0 rgba(255,255,255,0.5);
+}
+body.works p.worksInfo{
+    color: #eee;
+    display: inline-block;
+    width: 360px;
+    vertical-align: top;
+    padding: 20px;
+    font-size: 19px;
+}
+ul.worksList li{
+    width: 205px;
+    height: 205px;
+    display: inline-block;
+    background-color: #111;
+    margin: 10px;
 }
 /* FOOTER DESIGN */
 /*===============*/
