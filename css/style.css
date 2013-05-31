@@ -21,6 +21,9 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 @media only screen 
 and (min-width : 1920px) {
 	body{
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
 	}
 }
@@ -515,13 +518,16 @@ h2.topTab:after{
     text-align: center;
     text-shadow: 0 1px 0 #555;
 }
-.darkSecond .wrapper section h4{
+.darkSecond h4{
     color: #ddd;
     font-family: 'Raleway', sans-serif;
     font-size: 35px;
     font-weight: 500;
-    margin-bottom: 45px;
     position: relative;
+    margin: 10px;
+}
+.darkSecond .wrapper section h4{
+    margin-bottom: 45px;
 }
 .darkSecond .wrapper section h4:after{
     color: #555;
@@ -547,7 +553,7 @@ h2.topTab:after{
 /* WORKS PAGE DESIGN */
 /*===================*/
 body.works {
-    background-color: #47759d;
+    background-color: #59829a;
     background-image: url(../img/worksBG.jpg);
     background-position: top center;
     background-repeat: no-repeat;
@@ -566,12 +572,24 @@ div.worksTop ul li a{
     text-decoration: none;
     text-transform: uppercase;
     color: #eee;
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
+}
+div.worksTop li a:hover{
+    color: #222;
+    text-shadow: -1px 1px 0 rgba(255,255,255,0.2);
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
 }
 div.worksTop ul li span{
     font-size: 28px;
-}
-div.worksTop ul li a:hover span{
-    color: #63B7FF;
+    margin-right: 3px;
 }
 body.works div.worksTop h2{
     color: #303942;
@@ -586,15 +604,51 @@ body.works p.worksInfo{
     display: inline-block;
     width: 360px;
     vertical-align: top;
-    padding: 20px;
+    padding: 25px 30px;
     font-size: 19px;
 }
+body.works p.worksInfo a{
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #555;
+}
 ul.worksList li{
+    background-color: #111;
+    display: inline-block;
+    height: 205px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 205px;
+    vertical-align: top;
+}
+ul.worksList li div{
     width: 205px;
     height: 205px;
-    display: inline-block;
-    background-color: #111;
-    margin: 10px;
+    position: absolute;
+    top: 174px;
+
+    -webkit-transition: all ease-in-out 0.4s;
+    -moz-transition: all ease-in-out 0.4s;
+    -ms-transition: all ease-in-out 0.4s;
+    -o-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+}
+ul.worksList li:hover div{
+    top: 0;
+
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
+}
+ul.worksList li div h5{
+    font-family: 'Oswald', sans-serif;
+    color: #ddd;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.5);
 }
 /* FOOTER DESIGN */
 /*===============*/
