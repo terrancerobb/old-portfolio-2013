@@ -33,7 +33,6 @@
     <!--[if lte IE 7]><script src="{{ site.url }}/js/lte-ie7.js"></script><![endif]-->
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:500,300' rel='stylesheet' type='text/css'>
-    {% if page.bodyclass == "works" %}<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>{% endif %}
 </head>
 <body{% if page.bodyclass %} class="{{ page.bodyclass }}"{% endif %}>
 <header>
@@ -43,7 +42,7 @@
         </div>
         <nav>
             <ul>
-                <li{% if page.bodyclass == "homepage" %} class="current_page_item"{% endif %}><a href="{{ site.url }}">Home</a></li><li{% if page.bodyclass == "blog" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/blog/">Blog</a></li><li{% if page.bodyclass == "about" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/about/">About</a></li><li{% if page.bodyclass == "works" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/works/">Works</a></li><li{% if page.bodyclass == "contact" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/contact/">Contact</a></li>
+                <li{% if page.bodyclass == "homepage" or page.bodyclass == nil %} class="current_page_item"{% endif %}><a href="{{ site.url }}">Home</a></li><li{% if page.bodyclass == "blog" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/blog/">Blog</a></li><li{% if page.bodyclass == "about" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/about/">About</a></li><li{% if page.bodyclass contains "works" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/works/">Works</a></li><li{% if page.bodyclass == "contact" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/contact/">Contact</a></li>
         </nav>
     </div>
 </header>

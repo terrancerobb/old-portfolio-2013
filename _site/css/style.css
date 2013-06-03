@@ -526,6 +526,10 @@ h2.topTab:after{
     position: relative;
     margin: 10px;
 }
+.darkSecond h4 i{
+    font-size: 30px;
+    margin-right: 10px;
+}
 .darkSecond .wrapper section h4{
     margin-bottom: 45px;
 }
@@ -552,7 +556,7 @@ h2.topTab:after{
 }
 /* WORKS PAGE DESIGN */
 /*===================*/
-body.works {
+body.works, body.project {
     background-color: #59829a;
     background-image: url(../img/worksBG.jpg);
     background-position: top center;
@@ -614,6 +618,7 @@ body.works p.worksInfo a{
 }
 ul.worksList li{
     background-color: #111;
+    border: solid 1px #111;
     display: inline-block;
     height: 205px;
     margin: 10px;
@@ -624,10 +629,10 @@ ul.worksList li{
 }
 ul.worksList li div{
     background-color: rgba(0,0,0,0.85);
-    width: 205px;
     height: 205px;
     position: absolute;
     top: 174px;
+    width: 205px;
     z-index: 10;
 
     -webkit-transition: all ease-in-out 0.4s;
@@ -638,21 +643,20 @@ ul.worksList li div{
 }
 ul.worksList li div p{
     color: #fff;
-    padding: 10px;
     font-family: Tahoma, Verdana, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
+    padding: 10px;
 }
 ul.worksList li div a{
     color: #59829a;
     display: block;
-    text-decoration: none;
     font-family: 'Oswald', sans-serif;
-    font-size: 16px;
+    font-size: 24px;
     text-align: center;
+    text-decoration: none;
 }
 ul.worksList li div a:hover{
     color: #8DCBF0;
-    text-decoration: underline;
 }
 ul.worksList li:hover div{
     top: 0;
@@ -672,6 +676,42 @@ ul.worksList li div h5{
 ul.worksList li img{
     position: absolute;
     z-index: 1;
+}
+ul.worksList li .icon-link-2{
+    font-size: 22px;
+    margin-right: 5px;
+}
+/* PROJECT PAGE DESIGN */
+/*=====================*/
+body.project.works div.worksTop{
+    padding: 20px 0;
+}
+body.project.works div.worksTop h2{
+    font-size: 60px;
+    display: block;
+    text-align: center;
+}
+body.project.works p.worksInfo{
+    display: block;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+body.project.works p.worksInfo {
+    padding: 15px;
+}
+body.project.works img{
+    text-align: center;
+}
+img.img850{
+    width: 850px;
+    margin: 0 auto;
+    display: block;
+}
+body.project.works .darkSecond p{
+    color: #ddd;
+    margin: 25px 50px;
+    font-size: 14px;
 }
 /* FOOTER DESIGN */
 /*===============*/
