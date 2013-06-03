@@ -7,8 +7,7 @@
 
 // sample CSS: html[data-useragent*='Chrome/13.0'] { ... }
 
-
-$(function() {
+$(window).load(function() {
 
     var $el, leftPos, newWidth,
         $mainNav = $("header nav ul");
