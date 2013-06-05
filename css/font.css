@@ -1,13 +1,30 @@
 @font-face {
 	font-family: 'terryrobb';
-	src:url('../fonts/terryrobb.eot');
-	src:url('../fonts/terryrobb.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/terryrobb.woff') format('woff'),
+	src:url('../fonts/terryrobb.woff') format('woff'),
 		url('../fonts/terryrobb.ttf') format('truetype'),
 		url('../fonts/terryrobb.svg#terryrobb') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
+
+@font-face {
+    font-family: 'terryrobb';
+	src:url('../fonts/terryrobb.eot');
+	src:url('../fonts/terryrobb.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;       
+}
+
+@font-face {
+    font-family: "sys-user";
+    src: url('../fonts/fontawesome-webfont.woff') format('woff'),
+        url('../fonts/fontawesome-webfont.ttf') format('truetype'),
+        url('../fonts/fontawesome-webfont.svg#FontAwesome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
