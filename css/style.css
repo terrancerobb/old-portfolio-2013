@@ -59,8 +59,7 @@ header nav ul {
 }
 header nav ul li {
     display: inline;
-    margin: 0 auto;
-    padding: 13px;
+    margin: 0 13px;
 }
 header nav ul li a {
     color: #fff;
@@ -83,7 +82,7 @@ header nav ul li a:hover { color: #fff }
     padding: 0 5px;
     width: 960px;
 }
-div.mainTitle h1 a::before {
+div.mainTitle h1 a:before {
     content: url(../img/logo.png);
     position: absolute;
     left: 0;
@@ -703,8 +702,9 @@ footer .left, footer .middle, footer .right{
     display: inline-block;
     padding: 15px;
     vertical-align: top;
-    width: 314px;
+    width: 313px;
 }
+
 footer .left{
 	font-family: 'Raleway', sans-serif;
     font-weight: 300;

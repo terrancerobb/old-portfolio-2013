@@ -7,23 +7,26 @@
 
 // sample CSS: html[data-useragent*='Chrome/13.0'] { ... }
 
+// remap jQuery to $
+(function($){
+
 $(window).load(function() {
 
     var $el, leftPos, newWidth,
-        $mainNav = $("header nav ul");
+        $mainNav = $("header .innerHeader ul");
     
     $mainNav.append("<li id='magic-line'></li>");
     var $magicLine = $("#magic-line");
     
     $magicLine
         .width($(".current_page_item").width())
-        .css("left", $(".current_page_item a").position().left)
+        .css("left", $(".current_page_item").position().left)
         .data("origLeft", $magicLine.position().left)
         .data("origWidth", $magicLine.width());
         
-    $("header nav ul li").hover(function() {
+    $("header .innerHeader ul li").hover(function() {
         $el = $(this);
-        leftPos = $el.position().left+13;
+        leftPos = $el.position().left;
         newWidth = $el.width();
         $magicLine.stop().animate({
             left: leftPos,
@@ -37,14 +40,9 @@ $(window).load(function() {
     });
 });
 
-// remap jQuery to $
-(function($){
-
-
 /* trigger when page is ready */
 $(document).ready(function (){
 
-	// your functions go here
 
 });
 

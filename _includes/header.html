@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"> <![endif]-->
 <!--[if IE 7 ]>    <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"> <![endif]-->
@@ -29,10 +29,22 @@
     <link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}/apple-touch-icon-144x144.png" />
     <link rel="stylesheet" href="{{ site.url }}/css/reset.css" />
     <link rel="stylesheet" href="{{ site.url }}/css/style.css" />
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/ie.css" />
+    <![endif]-->
     <link rel="stylesheet" href="{{ site.url }}/css/font.css" />
     <!--[if lte IE 7]><script src="{{ site.url }}/js/lte-ie7.js"></script><![endif]-->
+    <!--[if !IE]><!-->
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+    <!--<![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:500,300' rel='stylesheet' type='text/css'>
+    <!--[if gt IE 8]>
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:500,300' rel='stylesheet' type='text/css'>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="{{ site.url }}/js/html5shiv.js"></script>
+    <![endif]-->
 </head>
 <body{% if page.bodyclass %} class="{{ page.bodyclass }}"{% endif %}>
 <header>
