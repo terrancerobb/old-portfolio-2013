@@ -1,6 +1,8 @@
 body{
+	background-image: url(img/bg.jpg);
 	background-color: #7DAFC9;
-	border-top: solid 10px #ACD0E3;
+	border-top: solid 10px #244557;
+	border-bottom: solid 10px #244557;
 	margin: 0;
 	padding: 5%;
 	text-align: center;
@@ -9,9 +11,12 @@ h1{
 	color: #1D303B;
 	font-family: 'Lato', sans-serif;
 	font-size: 5em;
-	margin: 0;
-	text-shadow: 1px -1px 0 #C8DBE6;
-	width: 450px;
+	margin: 15px 25px 0;
+	text-shadow: 0px 1px 0 #ABC6D6;
+	width: 350px;
+}
+div{
+	margin-top: 100px;
 }
 h1, ul{
 	display: inline-block;
@@ -21,12 +26,24 @@ h1, ul{
 ul{
 	list-style: none;
 }
-li{
-	color: #fff;
-	font-family: Tahoma, sans-serif;
+li a{
+	color: #eee;
+	font-family: 'Trebuchet MS', sans-serif;
 	font-size: 1.7em;
+	text-shadow: 0 10px 5px rgba(0,0,0,0.2);
+	text-decoration: none;
+
+	-webkit-transition: all ease-in-out 0.12s;
+    -moz-transition: all ease-in-out 0.1s;
+    -ms-transition: all ease-in-out 0.1s;
+    -o-transition: all ease-in-out 0.1s;
+    transition: all ease-in-out 0.1s;
+
 }
-li:before { 
+li a:hover{
+	color: #fff;
+}
+li a:before { 
     border-color: transparent #1D303B;
     border-style: solid;
     border-width: 0.35em 0 0.35em 0.45em;
@@ -38,7 +55,27 @@ li:before {
     top: 0.9em;
     width: 0;
 }
-li a{
-	color: inherit;
+small a{
+	color: #3c5f6f;
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 30px;
+	text-shadow: 0px 1px 0 #6895b0;
 	text-decoration: none;
+}
+small a:hover{
+	color: #1D303B;
+	text-shadow: 0px 1px 0 #88A7BA;
+}
+a, a:hover{
+	-webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
+}
+li a.sub:before{
+	visibility: hidden;
 }
