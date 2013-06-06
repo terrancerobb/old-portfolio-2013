@@ -103,9 +103,11 @@ a, a:hover{
 }
 li a.sub{
 	background-color: #D90000;
+	border-top: solid 1px #F54747;
+	font-size: 1em;
 	margin-left: 5px;
 	padding: 1px 8px;
-	border-top: solid 1px #F54747;
+	vertical-align: top;
 
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
