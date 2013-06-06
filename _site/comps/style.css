@@ -1,8 +1,34 @@
+@font-face {
+	font-family: 'terrycomp';
+	src:url('fonts/terrycomp.eot');
+	src:url('fonts/terrycomp.eot?#iefix') format('embedded-opentype'),
+		url('fonts/terrycomp.woff') format('woff'),
+		url('fonts/terrycomp.ttf') format('truetype'),
+		url('fonts/terrycomp.svg#terrycomp') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.icon-link {
+	font-family: 'terrycomp';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-size: 0.8em;
+	margin-right: 5px;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-link:before {
+	content: "\e000";
+}
+
+
 body{
 	background-image: url(img/bg.jpg);
 	background-color: #7DAFC9;
 	border-top: solid 10px #244557;
-	border-bottom: solid 10px #244557;
 	margin: 0;
 	padding: 5%;
 	text-align: center;
@@ -30,7 +56,6 @@ li a{
 	color: #eee;
 	font-family: 'Trebuchet MS', sans-serif;
 	font-size: 1.7em;
-	text-shadow: 0 10px 5px rgba(0,0,0,0.2);
 	text-decoration: none;
 
 	-webkit-transition: all ease-in-out 0.12s;
@@ -76,6 +101,19 @@ a, a:hover{
     -o-transition: all ease-in-out 0.2s;
     transition: all ease-in-out 0.2s;
 }
+li a.sub{
+	background-color: #D90000;
+	margin-left: 5px;
+	padding: 1px 8px;
+	border-top: solid 1px #F54747;
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+li a.sub:hover{
+	background-color: #EC0000;
+}
 li a.sub:before{
-	visibility: hidden;
+	display: none;
 }
