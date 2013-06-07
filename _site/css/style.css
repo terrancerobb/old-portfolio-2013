@@ -797,6 +797,19 @@ body.contact h2{
 .contact header{
     background-color: rgba(0,0,0,0.2);
 }
+
+/* BLOG DESIGN */
+/*=============*/
+body.blog{
+    background-color: #444;
+}
+.blog p.soon{
+    color: #bbb;
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    margin: 190px 0;
+}
 /* FOOTER DESIGN */
 /*===============*/
 
