@@ -138,6 +138,7 @@ li a:hover{
 }
 small a{
 	color: #3c5f6f;
+	display: block;
 	position: absolute;
 	bottom: 15px;
 	right: 15px;
