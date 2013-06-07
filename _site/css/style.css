@@ -34,9 +34,8 @@ and (min-width : 1920px) {
 }
 .clearfix:after { clear: both }
 .clearfix { zoom: 1 }
-body { font-family: Tahoma, sans-serif }
+body { font-family: Tahoma, sans-serif; background-color: #080808; }
 body.homepage {
-    background-color: #669999;
     background-image: url(../img/homeBG.jpg);
     background-position: top center;
     background-repeat: no-repeat;
@@ -352,7 +351,6 @@ a.projects:hover i {
 /* ABOUT ME DESIGN */
 /*=================*/
 body.about {
-    background-color: #43483b;
     background-image: url(../img/aboutBG.jpg);
     background-position: top center;
     background-repeat: no-repeat;
@@ -365,6 +363,32 @@ body.about {
     display: inline-block;
     vertical-align: top;
 }
+.aboutFirst .left img:hover{
+    -moz-transition: all cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.9s;
+    -ms-transition: all cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.9s;
+    -o-transition: all cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.9s;
+    -webkit-transition: all cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.9s;
+    transition: all cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.9s;
+}
+.aboutFirst .left img{
+    -moz-transition: all ease-in-out 0.3s;
+    -ms-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    -webkit-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+}
+.aboutFirst .left img:hover{
+    -moz-transform-origin:60% 70%;
+    -moz-transform: rotate(-10deg);
+    -ms-transform-origin:60% 70%;
+    -ms-transform: rotate(-10deg);
+    -o-transform-origin:60% 70%;
+    -o-transform: rotate(-10deg);
+    -webkit-transform-origin:60% 70%;
+    -webkit-transform: rotate(-10deg);
+    transform-origin:60% 70%;
+    transform: rotate(-10deg);
+}
 .aboutFirst .right{
     height: 500px;
     margin: 10px 30px 0;
@@ -372,7 +396,8 @@ body.about {
 }
 .aboutFirst .right p{
     font-size: 27px;
-    text-shadow: 1px 2px 0 #000;
+    text-shadow: 0px 1px 0 #88B5D2;
+    color: #173E57;
 }
 .aboutFirst .right h1{
     font-family: 'Raleway', sans-serif;
@@ -387,24 +412,18 @@ body.about {
 .aboutFirst .right a{
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    background: #333333; /* Old browsers */
-    background: -moz-linear-gradient(top,  #333333 0%, #56534c 99%); /* FF3.6+ */
-    background: -ms-linear-gradient(top,  #333333 0%,#56534c 99%); /* IE10+ */
-    background: -o-linear-gradient(top,  #333333 0%,#56534c 99%); /* Opera 11.10+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#333333), color-stop(99%,#56534c)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #333333 0%,#56534c 99%); /* Chrome10+,Safari5.1+ */
-    background: linear-gradient(to bottom,  #333333 0%,#56534c 99%); /* W3C */
+    background-color: #B21212;
     border-bottom: solid 1px #000;
     border-radius: 5px;
     border-top: solid 1px #777;
-    box-shadow: 0 2px 4px #000;
+    box-shadow: 0 2px 1px rgba(0,0,0,0.5);
     color: #eee;
     display: block;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#56534c',GradientType=0 ); /* IE6-9 */
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
-    margin: 30px auto 0;
+    margin: 30px 0;
     padding: 5px;
     text-align: center;
     text-decoration: none;
@@ -419,8 +438,8 @@ body.about {
 }
 .aboutFirst .right a:hover{
     color: #fff;
-    box-shadow: 0 5px 7px #000;
-    margin: 27px auto 3px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.6);
+    margin: 27px 0 3px;
     -webkit-transition: all ease-in-out 0.1s;
     -moz-transition: all ease-in-out 0.1s;
     -ms-transition: all ease-in-out 0.1s;
@@ -533,7 +552,6 @@ h2.topTab:after{
 /* WORKS PAGE DESIGN */
 /*===================*/
 body.works, body.project {
-    background-color: #4487b0;
     background-image: url(../img/worksBG.jpg);
     background-position: top center;
     background-repeat: no-repeat;
@@ -688,6 +706,96 @@ body.project.works .darkSecond p{
     color: #ddd;
     margin: 25px 50px;
     font-size: 14px;
+}
+
+/* CONTACT PAGE DESIGN */
+/*=====================*/
+body.contact{
+    background-image: url(../img/contactBG.jpg);
+    background-repeat: no-repeat;
+    color: #aaa;
+}
+body.contact h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    font-weight: 300;
+    text-align: center;
+}
+.ss-q-title{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+#ss-form{
+    display: inline-block;
+}
+.ss-secondary-text{
+    font-size: 16px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+.ss-q-short{
+    background-color: #333;
+    border: none;
+    color: #999;
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    padding: 3px;
+    width: 100%;
+}
+.ss-q-short:hover, .ss-q-other:hover{
+    background-color: #444;
+}
+.ss-q-other{
+    background-color: #333;
+    border: none;
+    color: #999;
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    line-height: 35px;
+    margin-left: 8px;
+    padding: 3px;
+    vertical-align: top;
+}
+.ss-choice-item{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.contact input[type="checkbox"] {
+    height: 35px;
+    width: 35px;
+}
+.contact input[type="checkbox"]:checked .ss-choice-label{
+    color: red;
+}
+.contact .ss-navigate .ss-form-entry[dir="ltr"]{
+    text-align: center;
+}
+.contact #ss-submit{
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Raleway',sans-serif;
+    background-color: #999;
+    border: none;
+    padding: 2px 15px;
+    color: #444;
+    text-shadow: 0 1px #aaa;
+    margin: 18px 0;
+}
+.ss-form-question.left, .ss-form-question.right{
+    vertical-align: top;
+    display: inline-block;
+    width: 47%;
+    padding: 5%;
+}
+.contact header{
+    background-color: rgba(0,0,0,0.2);
 }
 /* FOOTER DESIGN */
 /*===============*/
