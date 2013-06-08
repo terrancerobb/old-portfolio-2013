@@ -38,6 +38,19 @@ $(window).load(function() {
             width: $magicLine.data("origWidth")
         });    
     });
+    /* Back to top code */
+    $('a.back-to-top').click(function(e){
+        $('html, body').animate({scrollTop:0}, 'slow');
+        e.preventDefault();
+    });
+
+    $(window).scroll(function() {
+        if ($('body').offset().top < $(window).scrollTop()) {
+            $('.back-to-top').slideDown('fast');
+        } else {
+            $('.back-to-top').slideUp('fast');
+        }
+    });
 });
 
 /* trigger when page is ready */

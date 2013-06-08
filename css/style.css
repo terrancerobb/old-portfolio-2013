@@ -21,10 +21,10 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 @media only screen 
 and (min-width : 1920px) {
 	body{
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
 	}
 }
 
@@ -396,7 +396,7 @@ body.about {
 }
 .aboutFirst .right p{
     font-size: 27px;
-    text-shadow: 0px 1px 0 #88B5D2;
+    text-shadow: 0px 1px 0 #97B9CF;
     color: #173E57;
 }
 .aboutFirst .right h1{
@@ -713,7 +713,7 @@ body.project.works .darkSecond p{
 body.contact{
     background-image: url(../img/contactBG.jpg);
     background-repeat: no-repeat;
-    color: #aaa;
+    color: #bcbcbc;
 }
 body.contact h2{
     font-family: 'Raleway', sans-serif;
@@ -783,7 +783,7 @@ body.contact h2{
     font-family: 'Raleway',sans-serif;
     background-color: #999;
     border: none;
-    padding: 2px 15px;
+    padding: 10px 15px;
     color: #444;
     text-shadow: 0 1px #aaa;
     margin: 18px 0;
@@ -957,4 +957,12 @@ footer .subFooter{
 	font-size: 36px;
 	font-weight: 300;
 	width: 100%;
+}
+footer .subFooter .wrapper a{
+    color: #ccc;
+    float: right;
+    text-decoration: none;
+}
+footer .subFooter .wrapper a span{
+    margin-left: 8px;
 }
