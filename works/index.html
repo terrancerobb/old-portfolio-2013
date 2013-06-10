@@ -20,18 +20,25 @@ metadesc: Here are some examples of what I do. If you like what you see, please 
 <h2 class="topTab">Projects</h2>
 <div class="darkSecond">
   <div class="wrapper">
-    <h4><i class="icon-desktop"></i>Graphic &amp; Web</h4>
-    <ul class="worksList">{% for post in site.categories.works do %}
-      <li>
-        <div>
-          <h5>{{ post.title }}</h5>
-          <p>{{ post.desc }}</p>
-          <a href="{{ post.url }}"><i class="icon-link-2"></i>View Project</a>
-        </div>
-        {% if post.post-image %}
-        <img src="{{ site.url }}{{ post.post-image }}"/>
-        {% endif %}
-      </li>{% endfor %}
-    </ul>
+    <div class="graphics">
+      <h4><i class="icon-desktop"></i>Graphic &amp; Web</h4>
+      <ul class="worksList">{% for post in site.categories.works do %}
+        {% if post.tags contains 'graphics' %}
+        <li>
+          <div>
+            <h5>{{ post.title }}</h5>
+            <p>{{ post.desc }}</p>
+            <a href="{{ post.url }}"><i class="icon-link-2"></i>View Project</a>
+          </div>
+          {% if post.post-image %}
+          <img src="{{ site.url }}{{ post.post-image }}"/>
+          {% endif %}
+        </li>{% endif %}{% endfor %}
+      </ul>
+    </div>
+    <div class="audio">
+      <h4><i class="icon-equalizer"></i>Music &amp; Audio</h4>
+      {% include worksAudio.html %}
+    </div>
   </div>
 </div>
