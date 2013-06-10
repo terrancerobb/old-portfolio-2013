@@ -28,7 +28,9 @@ metadesc: Here are some examples of what I do. If you like what you see, please 
           <p>{{ post.desc }}</p>
           <a href="{{ post.url }}"><i class="icon-link-2"></i>View Project</a>
         </div>
-        {% if post.post-image %}<img src="{{ site.url }}{{ post.post-image }}"/>{% endif %}
+        {% if post.post-image %}
+        <img src="{{ site.url }}{{ post.post-image }}"/>
+        {% endif %}
       </li>{% endfor %}
     </ul>
   </div>

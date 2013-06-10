@@ -43,7 +43,7 @@ body.homepage {
 header {
     margin: 0 auto;
     width: 100%;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.5);
     height: 60px;
 }
 header nav {
@@ -149,7 +149,7 @@ div#content { width: 960px }
     clear: both;
     width: 418px;
     height: 33px;
-    margin: 18px auto;
+    margin: 25px auto;
     padding: 0;
 }
 .ribbonCTA {
@@ -160,13 +160,13 @@ div#content { width: 960px }
     font-size: 28px;
     font-weight: 400;
     height: 51px;
-    margin: 30px auto 128px;
+    margin: 60px auto 115px;
     padding: 5px 0;
     position: relative;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    width: 240px;
+    width: 280px;
 
     -webkit-transition: all ease-in-out 0.1s;
     -moz-transition: all ease-in-out 0.1s;
@@ -222,7 +222,7 @@ a.ribbonCTA:hover {
 .homeSecond {
     width: 100%;
     background-color: #fff;
-    padding-top: 10px;
+    padding: 10px 0 20px;
 }
 .oneThird {
     float: left;
@@ -238,6 +238,7 @@ a.ribbonCTA:hover {
     color: #7c7c7c;
     font-family: Tahoma, sans-serif;
     font-size: 15px;
+    line-height: 1.4;
     margin-top: 8px;
 }
 .oneThird.aboutMe h2, .oneThird h3 {
