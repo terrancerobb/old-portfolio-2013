@@ -798,8 +798,12 @@ body.contact h2{
 .contact header{
     background-color: rgba(0,0,0,0.2);
 }
-body.works ul.audioList li{
-    margin-bottom: 18px;
+.contact small{
+    display: block;
+    text-align: center;
+    font-family: Georgia,serif;
+    font-size: 16px;
+    font-style: italic;
 }
 /* BLOG DESIGN */
 /*=============*/
