@@ -10,10 +10,10 @@ metadesc: Here are some examples of what I do. If you like what you see, please 
     <h2>My Work</h2>
     <p class="worksInfo">Here you will find a showcase of the things I've created, or helped to create. If you like what you see, feel free to <a href="/contact/">get a hold of me!</a></p>
     <ul>
-      <li><a href="#"><span>></span>Graphic &amp; Web</a></li>
-      <li><a href="#"><span>></span>Music &amp; Audio</a></li>
-      <li><a href="#"><span>></span>Video</a></li>
-      <li><a href="#"><span>></span>Misc</a></li>
+      <li><a href="#graphic-and-web" class="gfx" return="false"><span>></span>Graphic &amp; Web</a></li>
+      <li><a href="#" class="music"><span>></span>Music &amp; Audio</a></li>
+      <li><a href="#video" class="video"><span>></span>Video</a></li>
+      <li><a href="#misc" class="misc"><span>></span>Misc</a></li>
     </ul>
   </div>
 </div>
@@ -21,7 +21,7 @@ metadesc: Here are some examples of what I do. If you like what you see, please 
 <div class="darkSecond">
   <div class="wrapper">
     <div class="graphics">
-      <h4><i class="icon-desktop"></i>Graphic &amp; Web</h4>
+      <h4 id="graphic-and-web"><i class="icon-desktop"></i>Graphic &amp; Web</h4>
       <ul class="worksList">{% for post in site.posts do %}{% if post.tags contains 'graphics' and post.categories contains 'works' %}
         <li>
           <div>
@@ -36,7 +36,7 @@ metadesc: Here are some examples of what I do. If you like what you see, please 
       </ul>
     </div>
     <div class="audio">
-      <h4><i class="icon-equalizer"></i>Music &amp; Audio</h4>
+      <h4 id="music-and-audio"><i class="icon-equalizer"></i>Music &amp; Audio</h4>
         <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F6619767&amp;color=474747&amp;auto_play=false&amp;show_artwork=false"></iframe>
     </div>
   </div>

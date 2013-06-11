@@ -51,14 +51,32 @@ $(window).load(function() {
             $('.back-to-top').slideUp('fast');
         }
     });
+    /* Works page scrolling code */
+    $('.gfx').click(function(){
+        $('html, body').animate({scrollTop:$('#graphic-and-web').position().top}, 'slow');
+        return false;
+    });
+
+    $('.music').click(function(){
+        $('html, body').animate({scrollTop:$('#music-and-audio').position().top}, 'slow');
+        return false;
+    });
+
+    $('.video').click(function(){
+        $('html, body').animate({scrollTop:$('#video').position().top}, 'slow');
+        return false;
+    });
+
+    $('.misc').click(function(){
+        $('html, body').animate({scrollTop:$('#misc').position().top}, 'slow');
+        return false;
+    });
 });
 
 /* trigger when page is ready */
 $(document).ready(function (){
-
-
+    jQuery('a.gallery').colorbox();
 });
-
 
 /* optional triggers
 
