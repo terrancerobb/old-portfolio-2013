@@ -27,6 +27,7 @@
     <link rel="apple-touch-icon" sizes="72x72" href="http://localhost:8081/apple-touch-icon-72x72.png" />
     <link rel="apple-touch-icon" sizes="114x114" href="http://localhost:8081/apple-touch-icon-114x114.png" />
     <link rel="apple-touch-icon" sizes="144x144" href="http://localhost:8081/apple-touch-icon-144x144.png" />
+    <link rel="stylesheet" href="http://localhost:8081/css/colorbox.css" />
     <link rel="stylesheet" href="http://localhost:8081/css/reset.css" />
     <link rel="stylesheet" href="http://localhost:8081/css/style.css" />
     <!--[if lt IE 9]>
@@ -73,8 +74,8 @@
 <h2 class="topTab">Projects</h2>
 <div class="darkSecond">
   <div class="wrapper">
-    <div class="graphics">
-      <h4 id="graphic-and-web"><i class="icon-desktop"></i>Graphic &amp; Web Projects</h4>
+    <div class="graphics" id="graphic-and-web">
+      <h4><i class="icon-desktop"></i>Graphic &amp; Web Work</h4>
       <ul class="worksList">
         <li>
           <div>
@@ -82,9 +83,7 @@
             <p>A website designed and built to sell and deliver RVs nationally.</p>
             <a href="/works/graphics/rvwss.html"><i class="icon-link-2"></i>View Project</a>
           </div>
-          
           <img src="http://localhost:8081/img/works/rvwss/thumb.jpg"/>
-          
         </li>
         <li>
           <div>
@@ -92,9 +91,7 @@
             <p>This was a comp-in-progress for a personal blog concept that I started in 2012.</p>
             <a href="/works/graphics/personal2012.html"><i class="icon-link-2"></i>View Project</a>
           </div>
-          
           <img src="http://localhost:8081/img/works/personal2012/thumb.jpg"/>
-          
         </li>
         <li>
           <div>
@@ -102,9 +99,15 @@
             <p>A billboard that I designed for All American Coach Co.</p>
             <a href="/works/graphics/billboard.html"><i class="icon-link-2"></i>View Project</a>
           </div>
-          
           <img src="http://localhost:8081/img/works/billboard/thumb.jpg"/>
-          
+        </li>
+        <li>
+          <div>
+            <h5>Lowest Priced RVs</h5>
+            <p>A comp/mockup for a domain landing page. This is a work in progress.</p>
+            <a href="/works/graphics/lowest-priced-rvs.html"><i class="icon-link-2"></i>View Project</a>
+          </div>
+          <img src="http://localhost:8081/img/works/lowest-priced-rvs/thumb.jpg"/>
         </li>
         <li>
           <div>
@@ -112,9 +115,7 @@
             <p>Official website for All American Coach Co, national wholesale RV &amp; RV parts dealer.</p>
             <a href="/works/graphics/aacoach.html"><i class="icon-link-2"></i>View Project</a>
           </div>
-          
           <img src="http://localhost:8081/img/works/aacoach/thumb.jpg"/>
-          
         </li>
         <li>
           <div>
@@ -122,15 +123,42 @@
             <p>A header image for a page dedicated to a particular brand of RV.</p>
             <a href="/works/graphics/cherokee.html"><i class="icon-link-2"></i>View Project</a>
           </div>
-          
           <img src="http://localhost:8081/img/works/cherokee/thumb.jpg"/>
-          
         </li>
       </ul>
     </div>
-    <div class="audio">
-      <h4 id="music-and-audio"><i class="icon-equalizer"></i>Music &amp; Audio</h4>
+    <div class="audio" id="music-and-audio">
+      <h4><i class="icon-equalizer"></i>Music &amp; Audio Work</h4>
         <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F6619767&amp;color=474747&amp;auto_play=false&amp;show_artwork=false"></iframe>
+    </div>
+    <div class="video" id="video">
+      <h4><i class="icon-film"></i>Video Work</h4>
+      <ul class="worksList">
+        <li>
+          <div>
+            <h5>RV Product Video</h5>
+            <p>This is a product video created to display and sell an RV that I shot and edited for RV Wholesale Superstore.</p>
+            <a class='gallery youtube' href='http://www.youtube.com/embed/lWKcSOP1XzQ' title="RV Product Video"><i class="icon-youtube"></i>Watch Video</a>
+          </div>
+          <img src="http://img.youtube.com/vi/lWKcSOP1XzQ/hqdefault.jpg" alt="" class="ytPreview">
+        </li>
+        <li>
+          <div>
+            <h5>Tobaccy Gets Killed</h5>
+            <p>A short film that I co-wrote, co-directed and did all foley work and sound.</p>
+            <a class='gallery youtube' href='http://www.youtube.com/embed/byvone7Dl7Q' title="Tobaccy Gets Killed"><i class="icon-youtube"></i>Watch Video</a>
+          </div>
+          <img src="http://img.youtube.com/vi/byvone7Dl7Q/hqdefault.jpg" alt="" class="ytPreview">
+        </li>
+        <li>
+          <div>
+            <h5>News B-Roll Footage</h5>
+            <p>I used to do work for an online news company. This is some b-roll that I shot and edited for a newscast.</p>
+            <a class='gallery youtube' href='http://www.youtube.com/embed/GUq1ab1Kdd8' title="News B-Roll Footage"><i class="icon-youtube"></i>Watch Video</a>
+          </div>
+          <img src="http://img.youtube.com/vi/GUq1ab1Kdd8/hqdefault.jpg" alt="" class="ytPreview">
+        </li>
+      </ul>
     </div>
   </div>
 </div>
@@ -170,6 +198,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write("<script src='_/js/jquery-1.9.1.min.js'>\x3C/script>")</script>
 <script src="http://localhost:8081/js/functions.js"></script>
+<script src="http://localhost:8081/js/jquery.colorbox-min.js"></script>
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

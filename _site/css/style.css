@@ -672,9 +672,14 @@ ul.worksList li img{
     position: absolute;
     z-index: 1;
 }
+ul.worksList li .icon-link-2, ul.worksList li .icon-youtube{
+    margin-right: 5px;
+}
 ul.worksList li .icon-link-2{
     font-size: 22px;
-    margin-right: 5px;
+}
+ul.worksList li .icon-youtube{
+    font-size: 28px;
 }
 /* PROJECT PAGE DESIGN */
 /*=====================*/
@@ -708,7 +713,10 @@ body.project.works .darkSecond p{
     margin: 25px 50px;
     font-size: 14px;
 }
-
+ul.worksList li img.ytPreview{
+    max-width: none;
+    max-height: 100%;
+}
 /* CONTACT PAGE DESIGN */
 /*=====================*/
 body.contact{
