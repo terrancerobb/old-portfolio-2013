@@ -482,7 +482,7 @@ h2.topTab:after{
 .darkSecond{
     background-color: #222;
     width: 100%;
-    padding: 20px;
+    padding: 30px;
 }
 .darkSecond .wrapper section{
     margin-top: 35px;
@@ -520,7 +520,10 @@ h2.topTab:after{
     font-size: 35px;
     font-weight: 500;
     position: relative;
-    margin: 10px;
+    margin: 0 auto 20px 10px;
+}
+.darkSecond .audio h4, .darkSecond .video h4{
+    margin-top: 30px;
 }
 .darkSecond h4 i{
     font-size: 30px;
@@ -600,11 +603,12 @@ body.works div.worksTop h2{
 }
 body.works p.worksInfo{
     color: #eee;
-    display: inline-block;
-    width: 360px;
-    vertical-align: top;
-    padding: 25px 30px;
+    float: right;
     font-size: 19px;
+    line-height: 1.8;
+    padding: 15px 0;
+    vertical-align: top;
+    width: 360px;
 }
 body.works p.worksInfo a{
     color: #fff;
@@ -643,11 +647,12 @@ ul.worksList li div p{
     padding: 10px;
 }
 ul.worksList li div a{
+    bottom: 5px;
     color: #5AB5ED;
-    display: block;
     font-family: 'Oswald', sans-serif;
     font-size: 24px;
-    text-align: center;
+    left: 11%;
+    position: absolute;
     text-decoration: none;
 }
 ul.worksList li div a:hover{
