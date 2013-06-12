@@ -47,19 +47,12 @@
             $('html, body').animate({scrollTop:$('#graphic-and-web').position().top}, 'slow');
             return false;
         });
-
         $('a.music').click(function(){
             $('html, body').animate({scrollTop:$('#music-and-audio').position().top}, 'slow');
             return false;
         });
-
         $('a.video').click(function(){
             $('html, body').animate({scrollTop:$('#video').position().top}, 'slow');
-            return false;
-        });
-
-        $('a.misc').click(function(){
-            $('html, body').animate({scrollTop:$('#misc').position().top}, 'slow');
             return false;
         });
     });

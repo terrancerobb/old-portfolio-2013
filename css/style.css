@@ -920,7 +920,7 @@ footer .right a:hover{
     color: #fff;
 }
 footer .right a:hover .icon-google-plus-sign, 
-footer .right a:hover .icon-facebook-sign, 
+footer .right a:hover .icon-github, 
 footer .right a:hover .icon-twitter, 
 footer .right a:hover .icon-linkedin-sign,
 footer .right a:hover .icon-youtube,
@@ -928,7 +928,7 @@ footer .right a:hover{
     text-shadow: 0 2px 0 #000;
 }
 footer .right a:hover .icon-google-plus-sign, 
-footer .right a:hover .icon-facebook-sign, 
+footer .right a:hover .icon-github, 
 footer .right a:hover .icon-twitter, 
 footer .right a:hover .icon-linkedin-sign,
 footer .right a:hover .icon-youtube,
@@ -940,7 +940,7 @@ footer .right a:hover{
     transition: all ease-in-out 0.3s;
 }
 footer .right a .icon-google-plus-sign, 
-footer .right a .icon-facebook-sign, 
+footer .right a .icon-github, 
 footer .right a .icon-twitter, 
 footer .right a .icon-linkedin-sign,
 footer .right a .icon-youtube,
@@ -954,8 +954,8 @@ footer .right a{
 footer .right a:hover .icon-google-plus-sign{
     color: #dd4b39;
 }
-footer .right a:hover .icon-facebook-sign{
-    color: #3b5998;
+footer .right a:hover .icon-github{
+    color: #4183c4;
 }
 footer .right a:hover .icon-twitter{
     color: #00a0d1;
