@@ -22,7 +22,7 @@ metadesc: Here are some examples of what I do. If you like what you see, please 
   <div class="wrapper">
     <div class="graphics">
       <h4 id="graphic-and-web"><i class="icon-desktop"></i>Graphic &amp; Web</h4>
-      <ul class="worksList">{% for post in site.posts do %}{% if post.tags contains 'graphics' and post.categories contains 'works' %}
+      <ul class="worksList">{% for post in site.categories.works do %}{% if site.tags.graphics %}
         <li>
           <div>
             <h5>{{ post.title }}</h5>
