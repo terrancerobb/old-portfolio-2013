@@ -4,7 +4,7 @@ post-image: /img/works/billboard/thumb.jpg
 title: Company Billboard
 desc: A billboard that I designed for All American Coach Co.
 categories: works
-tags: [works,graphics]
+tags: graphics
 permalink: /works/graphics/billboard.html
 bodyclass: project works
 ---
