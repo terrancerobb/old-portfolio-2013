@@ -698,6 +698,7 @@ body.project.works div.worksTop h2{
 }
 body.project.works p.worksInfo{
     display: block;
+    float: none;
     text-align: center;
     width: 800px;
     margin: 0 auto;
@@ -821,6 +822,7 @@ body.contact h2{
 /* BLOG DESIGN */
 /*=============*/
 body.blog{
+    background-color: #131718;
     background-image: url(../img/blogBG.jpg);
     background-repeat: no-repeat;
     color: #ccc;
@@ -888,22 +890,26 @@ body.blog .blogWrap a:hover{
     display: block;
     margin: 10px auto 20px;
 }
+.blogContent img.post.noborder{
+    border: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
 .blogContent p{
     color: #ccc;
     font-size: 16px;
     letter-spacing: 0.04em;
+    line-height: 1.3em;
     margin: auto 5px 10px;
 }
 span.blogSubtext{
     display: block;
     color: #989898;
     font-size: 14px;
-    margin: 3px;
+    margin: 20px 0 0;
     text-align: right;
-}
-body.blog .wrapper span.blogSubtext a{
-    color: #7abc88;
-    margin-left: 2px;
 }
 .blogSide{
     margin-left: 20px;
@@ -959,6 +965,9 @@ body.blog .blogSide section a{
     display: block;
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
+}
+.blog pre{
+    margin: 20px 0;
 }
 /* FOOTER DESIGN */
 /*===============*/
