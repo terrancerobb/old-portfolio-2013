@@ -935,6 +935,8 @@ body.blog div.wrapper div.blogSide a.green:hover{
     border-bottom: 3px dotted #626262;
     padding: 10px 0;
 }
+.blogSide section.about{padding: 0;}
+body.blog div.wrapper div.blogSide section.about a.green{ margin: 8px 0;}
 .blog .blogWrap a.category{
     background-color: #7abc88;
     color: #21502b;
@@ -963,6 +965,38 @@ body.blog .blogSide section a{
 .blog pre{
     margin: 20px 0;
 }
+body.blog a.viewAll{
+    display: block;
+    padding: 8px;
+    background-color: #555;
+    border-top: solid 2px #888;
+    border-bottom: solid 2px #888;
+    color: #eee;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin: 18px auto;
+}
+.blog.allblogs .blogContent h2{
+    font-size: 22px;
+}
+.blog.allblogs .blogContent span.blogSubtext, .blog.allblogs .blogContent h2, .blog.allblogs .blogContent .blogDate{
+    text-align: left;
+}
+body.blog .blogSide section.social a{
+    display: inline-block;
+    font-size: 35px;
+    margin-right: 8px;
+}
+body.blog .blogSide section.social a.gp{color:#dd4b39;}
+body.blog .blogSide section.social a.fb{color:#3b5998;}
+body.blog .blogSide section.social a.tw{color:#00a0d1;}
+body.blog .blogSide section.social a.li{color:#007bb6;}
+body.blog .blogSide section.social a.gp:hover,
+body.blog .blogSide section.social a.fb:hover, 
+body.blog .blogSide section.social a.tw:hover, 
+body.blog .blogSide section.social a.li:hover{color: #fff;}
 /* FOOTER DESIGN */
 /*===============*/
 

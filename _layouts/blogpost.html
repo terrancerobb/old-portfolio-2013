@@ -1,0 +1,13 @@
+{% include header.html %}
+<div class="wrapper blogWrap">
+	<div class="blogContent"><div class="blogFleur"></div>
+		<div class="post">
+			<a href="{{ site.url }}{{ page.url }}"><h2>{{ page.title }}</h2></a>
+			<small class="blogDate">Posted on {{ page.date | date: "%B %d, %Y" }}</small>
+			{{ page.content }}
+			{% if page.tags %}<span class="blogSubtext">Categories: {% for tag in page.tags %}<a class="category" href="#">{{ tag }} </a>{% endfor %}</span>{% endif %}
+		</div>
+	</div>
+	{% include blogside.html %}
+</div>
+{% include footer.html %}

@@ -20,7 +20,7 @@
     {% if page.metadesc %}<meta name="twitter:description" content="{{ page.metadesc }}">{% endif %}
     <meta property="og:title" content="Terry Robb{% if page.title %} | {{ page.title }}{% endif %}" />
     {% if page.metadesc %}<meta property="og:description" content="{{ page.metadesc }}" />{% endif %}
-    <meta property="og:image" content="{{ site.url }}/img/meta/facebook.jpg" />
+    <meta property="og:image" content="{{ site.url }}/img/meta/fb.jpg" />
     <link rel="shortcut icon" href="{{ site.url }}/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="{{ site.url }}/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/apple-touch-icon-57x57.png" />
@@ -57,7 +57,7 @@
         </div>
         <nav>
             <ul>
-                <li{% if page.bodyclass == "homepage" or page.bodyclass == nil %} class="current_page_item"{% endif %}><a href="{{ site.url }}">Home</a></li><li{% if page.bodyclass == "blog" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/blog/">Blog</a></li><li{% if page.bodyclass == "about" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/about/">About</a></li><li{% if page.bodyclass contains "works" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/works/">Works</a></li><li{% if page.bodyclass == "contact" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/contact/">Contact</a></li>
+                <li{% if page.bodyclass == "homepage" or page.bodyclass == nil %} class="current_page_item"{% endif %}><a href="{{ site.url }}">Home</a></li><li{% if page.bodyclass contains "blog" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/blog/">Blog</a></li><li{% if page.bodyclass == "about" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/about/">About</a></li><li{% if page.bodyclass contains "works" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/works/">Works</a></li><li{% if page.bodyclass == "contact" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/contact/">Contact</a></li>
         </nav>
     </div>
 </header>
