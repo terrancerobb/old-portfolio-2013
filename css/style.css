@@ -937,7 +937,7 @@ body.blog div.wrapper div.blogSide a.green:hover{
 }
 .blogSide section.about{padding: 0;}
 body.blog div.wrapper div.blogSide section.about a.green{ margin: 8px 0;}
-.blog .blogWrap a.category{
+.blog .blogWrap .category{
     background-color: #7abc88;
     color: #21502b;
     display: inline-block;
