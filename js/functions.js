@@ -59,6 +59,6 @@
 
 $(document).ready(function (){
     $('a.gallery.youtube').colorbox({title: function(){return this.title}, iframe:true, innerWidth:425, innerHeight:344});
+    $('.project a.gallery').colorbox({rel:'gal', maxHeight: "80%", maxWidth: "80%"});
 });
-
 })(window.jQuery);

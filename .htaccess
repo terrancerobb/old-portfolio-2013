@@ -3,5 +3,3 @@
     Header set Access-Control-Allow-Origin "*"
   </IfModule>
 </FilesMatch>
-
-Redirect 301 /projects.html /works/
