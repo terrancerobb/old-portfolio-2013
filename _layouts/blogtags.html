@@ -1,20 +1,14 @@
 ---
 layout: default
-title: Terry Robb's Blog
-bodyclass: blog
-title: Blog of Terry Robb, Designer
-metatitle: Blog of Terry Robb, Designer
-metadesc: Terrance Robb's Blog.
+bodyclass: blog allblogs
 ---
 <div class="wrapper blogWrap">
-	<div class="blogContent"><div class="blogFleur"></div>{% for post in site.categories.blog limit:5 %}
+	<div class="blogContent"><div class="blogFleur"></div><p>Blogs tagged as '{{ page.tagtitle }}'</p>{% for post in site.categories.blog %}{% if post.tags contains page.blogtag %}
 		<div class="post">
 			<a href="{{ site.url }}{{ post.url }}"><h2>{{ post.title }}</h2></a>
 			<small class="blogDate">Posted on {{ post.date | date: "%B %d, %Y" }}</small>
-			{{ post.content }}
 			{% if post.tags %}<span class="blogSubtext"><i class="icon-tags"></i> Categories: {% for tag in post.tags %}{% if tag == 'personal' or tag == 'web' or tag == 'graphic' or tag == 'sound' or tag == 'video' or tag == 'misc' %}<a class="category" href="/blog/{{ tag }}">{{ tag }} </a>{% else %}<span class="category">{{ tag }} </span>{% endif %}{% endfor %}</span>{% endif %}
-		</div>{% endfor %}
-		<a class="viewAll" href="/blog/all.html">View all blog posts</a>
+		</div>{% endif %}{% endfor %}
 	</div>
 	{% include blogside.html %}
 </div>

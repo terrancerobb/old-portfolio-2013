@@ -997,6 +997,15 @@ body.blog .blogSide section.social a.gp:hover,
 body.blog .blogSide section.social a.fb:hover, 
 body.blog .blogSide section.social a.tw:hover, 
 body.blog .blogSide section.social a.li:hover{color: #fff;}
+.blogContent ul{
+    list-style: square;
+    margin: 28px;
+    font-size: 18px;
+    font-family: 'Raleway', Tahoma;
+}
+.blogContent ul li{
+    
+}
 /* FOOTER DESIGN */
 /*===============*/
 

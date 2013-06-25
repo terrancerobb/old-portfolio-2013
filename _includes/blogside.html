@@ -4,16 +4,11 @@
 		<a href="{{ site:url }}/about/" class="green">About The Author</a>
 	</section>
 	<section>
-		<h4 class="green"><i class="icon-tags"></i> Categories</h4>
-		<a href="#" class="category">This</a>
-		<a href="#" class="category">That</a>
-		<a href="#" class="category">Another Thing</a>
-		<a href="#" class="category">Design</a>
-		<a href="#" class="category">HTML</a>
-		<a href="#" class="category">Code</a>
+		<h4 class="green"><i class="icon-tags"></i> Categories</h4>{% for page in site.pages %}{% if page.blogtag %}
+		<a href="{{ page.url }}" class="category">{{ page.tagtitle }}</a>{% endif %}{% endfor %}
 	</section>
 	<section>
-		<a href="{{ site:url }}/blog/all.html" class="green">Recent Posts</a>{% for post in site.categories.blog limit:4 %}
+		<a href="{{ site:url }}/blog/all.html" class="green"><i class="icon-quill"></i> Recent Blog Posts</a>{% for post in site.categories.blog limit:4 %}
 		<a href="{{ post.url }}">{{ post.title }}</a>{% endfor %}
 	</section>
 	<section class="social">

@@ -5,7 +5,7 @@
 			<a href="{{ site.url }}{{ page.url }}"><h2>{{ page.title }}</h2></a>
 			<small class="blogDate">Posted on {{ page.date | date: "%B %d, %Y" }}</small>
 			{{ page.content }}
-			{% if page.tags %}<span class="blogSubtext"><i class="icon-tags"></i> Categories: {% for tag in page.tags %}<a class="category" href="#">{{ tag }} </a>{% endfor %}</span>{% endif %}
+			{% if page.tags %}<span class="blogSubtext"><i class="icon-tags"></i> Categories: {% for tag in page.tags %}{% if tag == 'personal' or tag == 'web' or tag == 'graphic' or tag == 'sound' or tag == 'video' or tag == 'misc' %}<a class="category" href="/blog/{{ tag }}">{{ tag }} </a>{% else %}<span class="category">{{ tag }} </span>{% endif %}{% endfor %}</span>{% endif %}
 		</div>
 	</div>
 	{% include blogside.html %}
