@@ -681,8 +681,9 @@ body.project.works p.worksInfo{
 body.project.works p.worksInfo {
     padding: 15px;
 }
-body.project.works img{
+body.project.works a img{
     text-align: center;
+    border: solid 4px;
 }
 img.img850{
     width: 850px;

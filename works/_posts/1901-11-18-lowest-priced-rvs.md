@@ -8,4 +8,7 @@ tags: graphics
 permalink: /works/graphics/lowest-priced-rvs.html
 bodyclass: project works
 ---
-A small river named Duden flows by their place and supplies it with the necessary regelialia. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+<a class="gallery" href="{{ site.url }}/img/works/lowest-priced-rvs/full.jpg" title="Lowest Priced RVs"><img src="{{ site.url }}/img/works/lowest-priced-rvs/screenshot1.jpg" alt="RV Wholesale Superstore" class="img850"></a>
+<h4>Involved: Photoshop</h4>
+<p>This is an incomplete mockup/comp of a website being built for a landing page for an RV company. I used assets directly from RV manufacturers to crate an official and professional appearance to the site to help draw in leads. <a href="/img/works/lowest-priced-rvs/full.jpg">View full size.</a></p>
+<a class="projectCTA" href="/contact/">Contact Me</a>

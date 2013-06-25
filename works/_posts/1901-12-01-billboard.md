@@ -8,4 +8,7 @@ tags: graphics
 permalink: /works/graphics/billboard.html
 bodyclass: project works
 ---
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
+<a class="gallery" href="{{ site.url }}/img/works/billboard/full.png" title="Company Billboard"><img src="{{ site.url }}/img/works/billboard/screenshot1.jpg" alt="RV Wholesale Superstore" class="img850"></a>
+<h4>Involved: Photoshop</h4>
+<p>This is my first professional billboard design. It <a href="/img/works/billboard/billboard.jpg">can be seen</a> on southbound I-23 almost directly on the Ohio/Michigan border.</p>
+<a class="projectCTA" href="/contact/">Contact Me</a>
