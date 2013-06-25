@@ -58,6 +58,7 @@
         <nav>
             <ul>
                 <li{% if page.bodyclass == "homepage" or page.bodyclass == nil %} class="current_page_item"{% endif %}><a href="{{ site.url }}">Home</a></li><li{% if page.bodyclass contains "blog" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/blog/">Blog</a></li><li{% if page.bodyclass == "about" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/about/">About</a></li><li{% if page.bodyclass contains "works" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/works/">Works</a></li><li{% if page.bodyclass == "contact" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/contact/">Contact</a></li>
+            </ul>
         </nav>
     </div>
 </header>
