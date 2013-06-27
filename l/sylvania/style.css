@@ -65,8 +65,8 @@ a.sylvaniaCTA:hover {
     border-style: solid;
     top: -10px;
 }
-.sylvaniaCTA span:before { border-color: transparent transparent #8C0000 transparent }
-.sylvaniaCTA span:after { border-color: transparent transparent #8C0000 transparent }
+.sylvaniaCTA span:before { border-color: transparent transparent #8C0000 transparent; }
+.sylvaniaCTA span:after { border-color: transparent transparent #8C0000 transparent; }
 .sylvaniaCTA span:before {
     left: 0;
     border-width: 0 0 10px 10px;
@@ -86,11 +86,6 @@ a.sylvaniaCTA:hover {
 	text-decoration: none;
 	font-weight: bold;
 }
-.sylvaniaSecond {
-    width: 100%;
-    background-color: #fff;
-    padding: 10px 0 20px;
-}
 body.sylvania .oneThird.aboutMe h2{
 	font-size: 25px;
 }
@@ -101,4 +96,9 @@ margin-right: 8px;
 }
 li#magic-line{
 	display: none;
+}
+.homeSecond img{
+	display: block;
+	margin: 0 auto;
+	padding: 50px 0;
 }
