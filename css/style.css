@@ -1004,8 +1004,16 @@ body.blog .blogSide section.social a.li:hover{color: #fff;}
     font-size: 18px;
     font-family: 'Raleway', Tahoma;
 }
-.blogContent ul li{
-    
+.blogContent #disqus_thread{
+    margin-top: 20px;
+}
+a.blogComments{
+    display: block;
+    font-size: 16px;
+    margin: 20px 8px;
+}
+a.blogComments.all{
+    margin: 10px 2px;
 }
 /* FOOTER DESIGN */
 /*===============*/
