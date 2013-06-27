@@ -4,7 +4,7 @@
 		<a href="{{ site:url }}/about/" class="green">About The Author</a>
 	</section>
 	<section>
-		<h4 class="green"><i class="icon-tags"></i> Categories</h4>{% for page in site.pages %}{% if page.blogtag %}
+		<h4 class="green"><i class="icon-tags"></i> All Categories</h4>{% for page in site.pages %}{% if page.blogtag %}
 		<a href="{{ page.url }}" class="category">{{ page.tagtitle }}</a>{% endif %}{% endfor %}
 	</section>
 	<section>
