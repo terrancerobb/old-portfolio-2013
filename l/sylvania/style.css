@@ -1,0 +1,104 @@
+body{ background-image: url(landingBG.jpg);}
+.sylvaniaFirst{
+	color: #fff;
+	padding: 60px 20px;
+}
+.sylvaniaFirst .left { display: inline-block; width: 500px; }
+.sylvaniaFirst .left p {
+	font-size: 23px;
+	line-height: 28px;
+	margin-top: 15px;
+	text-shadow: 1px 1px 0 #555;
+	font-family: 'Raleway', sans-serif;
+}
+.sylvaniaFirst .left span {
+    background-color: rgba(0,0,0,0.5);
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 46px;
+    font-weight: 400;
+    padding: 2px 10px;
+    text-transform: uppercase;
+}
+a.sylvaniaCTA {
+    background-color: #E00000;
+    color: #fff;
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    height: 51px;
+    margin: 20px auto 50px;
+    padding: 5px 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 280px;
+}
+a.sylvaniaCTA:hover {
+    background-color: #FF0000;
+    color: #fff;
+}
+.sylvaniaCTA:before, .sylvaniaCTA:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: -10px;
+    border: 23px solid #C70000;
+    z-index: -1;
+}
+.sylvaniaCTA:before {
+    left: -73px;
+    border-right-width: 60px;
+    border-left-color: transparent;
+}
+.sylvaniaCTA:after {
+    right: -73px;
+    border-left-width: 60px;
+    border-right-color: transparent;
+}
+.sylvaniaCTA span:before, .sylvaniaCTA span:after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-style: solid;
+    top: -10px;
+}
+.sylvaniaCTA span:before { border-color: transparent transparent #8C0000 transparent }
+.sylvaniaCTA span:after { border-color: transparent transparent #8C0000 transparent }
+.sylvaniaCTA span:before {
+    left: 0;
+    border-width: 0 0 10px 10px;
+}
+.sylvaniaCTA span:after {
+    right: 0;
+    border-width: 0 10px 10px 0;
+}
+.sylvaniaFirst .right{
+	display: inline-block;
+	margin-left: 30px;
+	vertical-align: top;
+}
+.sylvaniaFirst .left a{
+	color: #1F1F1F;
+	text-shadow: none;
+	text-decoration: none;
+	font-weight: bold;
+}
+.sylvaniaSecond {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 0 20px;
+}
+body.sylvania .oneThird.aboutMe h2{
+	font-size: 25px;
+}
+body.sylvania .oneThird.aboutMe h2 i{
+color: #383838;
+font-size: 30px;
+margin-right: 8px;
+}
+li#magic-line{
+	display: none;
+}

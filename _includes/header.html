@@ -30,7 +30,8 @@
     <link rel="stylesheet" href="{{ site.url }}/css/colorbox.css" />{% endif %}{% if page.bodyclass contains "blog" %}
     <link rel="stylesheet" href="{{ site.url }}/css/prism.css" />{% endif %}
     <link rel="stylesheet" href="{{ site.url }}/css/reset.css" />
-    <link rel="stylesheet" href="{{ site.url }}/css/style.css?2" />
+    <link rel="stylesheet" href="{{ site.url }}/css/style.css?2" />{% if page.customcss %}
+    <link rel="stylesheet" href="{{ page.customcss }}" />{% endif %}
     <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
     <!--[if lt IE 9]>
     <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/ie.css" />
