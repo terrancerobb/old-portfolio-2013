@@ -58,7 +58,15 @@
     });
 
 $(document).ready(function (){
-    $('a.gallery.youtube').colorbox({title: function(){return this.title}, iframe:true, innerWidth:425, innerHeight:344});
+    $('a.gallery.youtube').colorbox({title: function(){return this.title}, iframe:true, innerWidth:425, innerHeight:344, maxWidth:'95%', maxHeight:'95%'});
     $('.project a.gallery').colorbox({rel:'gal', maxHeight: "80%", maxWidth: "80%"});
+
+    if (window.matchMedia) {
+    // Establishing media check
+    width480Check = window.matchMedia("(max-width: 480px)");
+    if (width480Check.matches){
+        $.colorbox.remove();
+    }
+}
 });
 })(window.jQuery);

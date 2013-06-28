@@ -8,6 +8,8 @@
 <head id="terrancerobb-portfolio" data-template-set="html5-reset">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=320, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
     <title>Terry Robb{% if page.title %} | {{ page.title }}{% endif %}</title>
     {% if page.metatitle %}<meta name="title" content="{{ page.metatitle }}" />{% endif %}
     {% if page.metadesc %}<meta name="description" content="{{ page.metadesc }}" />{% endif %}
@@ -58,7 +60,7 @@
         </div>
         <nav>
             <ul>
-                <li{% if page.bodyclass == "homepage" or page.bodyclass == nil %} class="current_page_item"{% endif %}><a href="{{ site.url }}">Home</a></li><li{% if page.bodyclass contains "blog" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/blog/">Blog</a></li><li{% if page.bodyclass == "about" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/about/">About</a></li><li{% if page.bodyclass contains "works" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/works/">Works</a></li><li{% if page.bodyclass == "contact" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/contact/">Contact</a></li>
+                <li{% if page.bodyclass == "homepage" or page.bodyclass == nil %} class="current_page_item"{% endif %}><a href="{{ site.url }}"><i class="icon-home"></i><span>Home</span></a></li><li{% if page.bodyclass contains "blog" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/blog/"><i class="icon-quill"></i><span>Blog</span></a></li><li{% if page.bodyclass == "about" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/about/"><i class="icon-info-sign"></i><span>About</span></a></li><li{% if page.bodyclass contains "works" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/works/"><i class="icon-briefcase"></i><span>Works</span></a></li><li{% if page.bodyclass == "contact" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/contact/"><i class="icon-envelope-2"></i><span>Contact</span></a></li>
             </ul>
         </nav>
     </div>

@@ -18,8 +18,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 
 /* End HTML5 Reset base
 -------------------------------------------------------------------------------*/
-@media only screen 
-and (min-width : 1920px) {
+@media only screen and (min-width : 1920px) {
 	body{
         -webkit-background-size: contain;
            -moz-background-size: contain;
@@ -27,6 +26,317 @@ and (min-width : 1920px) {
                 background-size: contain;
 	}
 }
+@media screen and (max-width: 500px) {
+    body{
+        width: 100%;
+        overflow: hidden;
+    }
+    header .innerHeader{
+        width: 100%;
+        padding: 0;
+    }
+    div.mainTitle{
+        position: inherit;
+    }
+    body header{
+        height: auto;
+        width: 320px;
+
+        -webkit-border-bottom-right-radius: 5px;
+        -webkit-border-bottom-left-radius: 5px;
+           -moz-border-radius-bottomright: 5px;
+           -moz-border-radius-bottomleft: 5px;
+         border-bottom-right-radius: 5px;
+         border-bottom-left-radius: 5px;
+    }
+    body header nav{
+        float: none;
+    }
+    div.mainTitle h1 a{
+        display: none;
+    }
+    body header nav ul{
+        margin: 0 auto;
+        width: 316px;
+    }
+    body header nav ul li{
+        padding: 0;
+    }
+    #magic-line{
+        display: none;
+    }
+    body header nav ul li a span{
+        display: none;
+    }
+    body header nav ul li a i{
+        color: #ccc;
+        display: inline-block;
+        font-size: 35px;
+        padding: 5px;
+        margin: 9px;
+    }
+    body header i.icon-envelope{
+        margin: 0;
+        margin-left: 2%;
+        padding: 5px 0 5px;
+    }
+    body header li.current_page_item i{
+        color: #fff;
+    }
+    div.wrapper{
+        width: 100%;
+    }
+    body .homeFirst .left{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    body .homeFirst .left span:first-of-type{
+        font-size: 55px;
+    }
+    body .homeFirst .left span{
+        font-size: 48px;
+    }
+    body .homeFirst{
+        margin: 40px auto;
+    }
+    body .homeFirst .right p{
+        background-color: rgba(0,0,0,0.5);
+        width: 98%;
+        margin: 0 auto;
+        padding: 5px;
+    }
+    body .homeFirst .right p span{
+        background-color: transparent;
+        display: inline;
+        font-weight: 300;
+        line-height: 40px;
+        margin: 0;
+        padding: 1px;
+        width: 100%;
+    }
+    body .homeFirst div.sep{
+        width: 100%;
+        height: auto;
+    }
+    body .ribbonCTA:before, body .ribbonCTA:after, body .ribbonCTA span:before, body .ribbonCTA span:after{ display: none;}
+    body a.ribbonCTA{
+        width: 100%;
+        margin: 10px 0;
+        font-size: 40px;
+        height: auto;
+    }
+    body .homeSecond .oneThird img{
+        position: inherit;
+        top: 0;
+        left: 0;
+        width: 95%;
+
+        -webkit-transform: rotate(0deg);
+           -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+             -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    body .homeSecond .oneThird blockquote{
+        margin-top: 20px;
+    }
+    body .oneThird {
+        display: block;
+        margin: 5px;
+        padding: 10px;
+        width: 100%;
+    }
+    body .homeSecond .oneThird p{
+        font-size: 20px;
+    }
+    body a.projects{
+        width: 95%;
+        margin: 20px auto 5px;
+    }
+    body footer{
+        text-align: center;
+    }
+    body footer .left{
+        display: none;
+    }
+    body footer .middle, body footer .right{
+        width: 95%;
+    }
+    body footer .middle h4{
+        text-align: center;
+    }
+    body footer .right ul{
+        padding: 10px;
+    }
+    body footer .right li{
+        display: inline-block;
+        margin: 8px;
+    }
+    body footer .subFooter .wrapper a {
+        display: block;
+        float: none;
+        margin-top: 10px;
+        width: 100%;
+    }
+    body footer .subFooter > *{
+        text-align: center;
+        display: block;
+        font-size: 30px;
+    }
+    body .blogSide, body.blog .blogContent{
+        display: block;
+        width: 100%;
+    }
+    body .blogContent img.post{
+        max-width: 100%;
+    }
+    body.blog div.blogFleur{
+        width: 100%;
+        background-position: center;
+    }
+    body .blogSide{
+        margin: 0;
+        padding: 5px;
+    }
+    body .blogSide section.social h4.green{
+        display: inline;
+        margin-right: 25px;
+        margin-top: 0;
+        vertical-align: middle;
+    }
+    body.blog .wrapper .blogSide section.social a{
+        vertical-align: middle;
+    }
+    body.blog .wrapper .blogSide section a{
+        font-size: 18px;
+        margin: 5px;
+    }
+    body .aboutFirst .left{
+        text-align: center;
+        display: block;
+    }
+    body .aboutFirst .left img{
+        width: 35%;
+    }
+    body .aboutFirst .left img:hover {
+
+        -webkit-transition: none;
+           -moz-transition: none;
+            -ms-transition: none;
+             -o-transition: none;
+                transition: none;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    }
+    body .aboutFirst .right h1{
+        font-size: 55px;
+        text-align: center;
+    }
+    body .aboutFirst .right{
+        margin: 0;
+        width: 100%;
+        padding: 5px;
+        height: auto;
+    }
+    body .aboutFirst {
+        margin: 25px auto 0;
+    }
+    body .aboutFirst .right p{
+        font-size: 23px;
+        letter-spacing: normal;
+    }
+    body .aboutFirst .right a{
+        width: 100%;
+        margin: 20px 0 35px;
+        box-shadow: none;
+
+        -webkit-transition: none;
+           -moz-transition: none;
+            -ms-transition: none;
+             -o-transition: none;
+                transition: none;
+    }
+    body .aboutFirst .right a:hover{
+        color: #fff;
+        box-shadow: none;
+        margin: 20px 0 35px;
+
+        -webkit-transition: none;
+           -moz-transition: none;
+            -ms-transition: none;
+             -o-transition: none;
+                transition: none;
+    }
+    body .darkSecond .wrapper section .left{
+        width: 100%;
+        margin-top: 10px;
+    }
+    body .darkSecond .wrapper section{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 18px;
+    }
+    body .darkSecond .wrapper section .right{
+        margin: 51px auto 0;
+        display: block;
+    }
+    body .darkSecond .wrapper section h4{
+        border-bottom: dotted 8px #555;
+        margin: auto auto 25px;
+        padding-bottom: 8px;
+    }
+    body .darkSecond .wrapper section h4:after{
+        display: none;
+    }
+    body.works .wrapper div.worksTop h2{
+        display: block;
+        font-size: 70px;
+        text-align: center;
+    }
+    body.works div.worksTop{
+        padding: 20px 0;
+    }
+    body.works .worksTop p.worksInfo{
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 25px;
+        float: none;
+    }
+    body div.worksTop ul{
+        display: none;
+    }
+    body div.worksTop ul li a{
+        font-size: 22px;
+    }
+    body .darkSecond{
+        padding: 0;
+    }
+    body .darkSecond h4{
+        font-size: 25px;
+        padding-top: 25px;
+        text-align: center;
+    }
+    body ul.worksList li{
+        display: block;
+        margin: 20px auto;
+    }
+    body div#colorbox{
+        width: 100%;
+    }
+    body .ss-form-question.left, body .ss-form-question.right{
+        display: block;
+        width: 100%;
+    }
+    html body{
+        background-attachment:fixed;
+    }
+
+}
+/*-----------------------------------------------------------------------------*/
 a, a:hover{
     -webkit-transition: all ease-in-out 0.2s;
        -moz-transition: all ease-in-out 0.2s;
@@ -71,6 +381,9 @@ header nav ul li a {
     font-size: 20px;
     font-weight: 300;
     text-decoration: none;
+}
+header nav ul li a i{
+    display: none;
 }
 header nav ul li a:hover { color: #fff }
 #magic-line {
@@ -1002,7 +1315,9 @@ body.blog .blogSide section.social a.li:hover{color: #fff;}
     list-style: square;
     margin: 28px;
     font-size: 18px;
-    font-family: 'Raleway', Tahoma;
+}
+.blogContent ul li{
+    margin: 5px;
 }
 .blogContent #disqus_thread{
     margin-top: 20px;
