@@ -28,15 +28,9 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 }
 @media screen and (max-width: 500px) {
     body{
+        background-attachment:fixed;
         width: 100%;
         overflow: hidden;
-    }
-    header .innerHeader{
-        width: 100%;
-        padding: 0;
-    }
-    div.mainTitle{
-        position: inherit;
     }
     body header{
         height: auto;
@@ -49,64 +43,50 @@ textarea:-moz-placeholder { color:#a9a9a9; }
          border-bottom-right-radius: 5px;
          border-bottom-left-radius: 5px;
     }
-    body header nav{
-        float: none;
+    body header .innerHeader{
+        width: 100%;
+        padding: 0;
     }
-    div.mainTitle h1 a{
-        display: none;
+    div.mainTitle{
+        position: inherit;
     }
+    div.mainTitle h1 a{ display: none; }
+    body header nav{ float: none; }
     body header nav ul{
         margin: 0 auto;
         width: 316px;
     }
-    body header nav ul li{
-        padding: 0;
-    }
-    #magic-line{
-        display: none;
-    }
-    body header nav ul li a span{
-        display: none;
-    }
+    body header nav ul li{ padding: 0; }
+    #magic-line{ display: none; }
+    body header nav ul li a span{ display: none; }
     body header nav ul li a i{
         color: #ccc;
         display: inline-block;
         font-size: 35px;
-        padding: 5px;
         margin: 9px;
+        padding: 5px;
     }
     body header i.icon-envelope{
-        margin: 0;
-        margin-left: 2%;
+        margin: 0; margin-left: 2%;
         padding: 5px 0 5px;
     }
-    body header li.current_page_item i{
-        color: #fff;
-    }
-    div.wrapper{
-        width: 100%;
-    }
+    body header li.current_page_item i{ color: #fff; }
+    div.wrapper{ width: 100%; }
     body .homeFirst .left{
-        width: 100%;
-        text-align: center;
         margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
     }
-    body .homeFirst .left span:first-of-type{
-        font-size: 55px;
-    }
-    body .homeFirst .left span{
-        font-size: 48px;
-    }
-    body .homeFirst{
-        margin: 40px auto;
-    }
+    body .homeFirst .left span:first-of-type{ font-size: 55px; }
+    body .homeFirst .left span{ font-size: 48px; }
+    body .homeFirst{ margin: 40px auto; }
     body .homeFirst .right p{
         background-color: rgba(0,0,0,0.5);
-        width: 98%;
         margin: 0 auto;
         padding: 5px;
+        width: 98%;
     }
-    body .homeFirst .right p span{
+    body .homeFirst .right p span{ 
         background-color: transparent;
         display: inline;
         font-weight: 300;
@@ -116,20 +96,19 @@ textarea:-moz-placeholder { color:#a9a9a9; }
         width: 100%;
     }
     body .homeFirst div.sep{
-        width: 100%;
         height: auto;
+        width: 100%;
     }
     body .ribbonCTA:before, body .ribbonCTA:after, body .ribbonCTA span:before, body .ribbonCTA span:after{ display: none;}
     body a.ribbonCTA{
-        width: 100%;
-        margin: 10px 0;
         font-size: 40px;
         height: auto;
+        margin: 10px 0;
+        width: 100%;
     }
     body .homeSecond .oneThird img{
         position: inherit;
-        top: 0;
-        left: 0;
+        top: 0; left: 0;
         width: 95%;
 
         -webkit-transform: rotate(0deg);
@@ -138,37 +117,23 @@ textarea:-moz-placeholder { color:#a9a9a9; }
              -o-transform: rotate(0deg);
                 transform: rotate(0deg);
     }
-    body .homeSecond .oneThird blockquote{
-        margin-top: 20px;
-    }
+    body .homeSecond .oneThird blockquote{ margin-top: 20px; }
     body .oneThird {
         display: block;
         margin: 5px;
         padding: 10px;
         width: 100%;
     }
-    body .homeSecond .oneThird p{
-        font-size: 20px;
-    }
+    body .homeSecond .oneThird p{ font-size: 20px; }
     body a.projects{
-        width: 95%;
         margin: 20px auto 5px;
-    }
-    body footer{
-        text-align: center;
-    }
-    body footer .left{
-        display: none;
-    }
-    body footer .middle, body footer .right{
         width: 95%;
     }
-    body footer .middle h4{
-        text-align: center;
-    }
-    body footer .right ul{
-        padding: 10px;
-    }
+    body footer{ text-align: center; }
+    body footer .left{ display: none; }
+    body footer .middle, body footer .right{ width: 95%; }
+    body footer .middle h4{ text-align: center; }
+    body footer .right ul{ padding: 10px; }
     body footer .right li{
         display: inline-block;
         margin: 8px;
@@ -180,20 +145,18 @@ textarea:-moz-placeholder { color:#a9a9a9; }
         width: 100%;
     }
     body footer .subFooter > *{
-        text-align: center;
         display: block;
         font-size: 30px;
+        text-align: center;
     }
     body .blogSide, body.blog .blogContent{
         display: block;
         width: 100%;
     }
-    body .blogContent img.post{
-        max-width: 100%;
-    }
+    body .blogContent img.post{ max-width: 100%; }
     body.blog div.blogFleur{
-        width: 100%;
         background-position: center;
+        width: 100%;
     }
     body .blogSide{
         margin: 0;
@@ -205,22 +168,17 @@ textarea:-moz-placeholder { color:#a9a9a9; }
         margin-top: 0;
         vertical-align: middle;
     }
-    body.blog .wrapper .blogSide section.social a{
-        vertical-align: middle;
-    }
+    body.blog .wrapper .blogSide section.social a{ vertical-align: middle; }
     body.blog .wrapper .blogSide section a{
         font-size: 18px;
         margin: 5px;
     }
     body .aboutFirst .left{
-        text-align: center;
         display: block;
+        text-align: center;
     }
-    body .aboutFirst .left img{
-        width: 35%;
-    }
+    body .aboutFirst .left img{ width: 35%; }
     body .aboutFirst .left img:hover {
-
         -webkit-transition: none;
            -moz-transition: none;
             -ms-transition: none;
@@ -237,22 +195,20 @@ textarea:-moz-placeholder { color:#a9a9a9; }
         text-align: center;
     }
     body .aboutFirst .right{
-        margin: 0;
-        width: 100%;
-        padding: 5px;
         height: auto;
+        margin: 0;
+        padding: 5px;
+        width: 100%;
     }
-    body .aboutFirst {
-        margin: 25px auto 0;
-    }
+    body .aboutFirst { margin: 25px auto 0; }
     body .aboutFirst .right p{
         font-size: 23px;
         letter-spacing: normal;
     }
     body .aboutFirst .right a{
-        width: 100%;
-        margin: 20px 0 35px;
         box-shadow: none;
+        margin: 20px 0 35px;
+        width: 100%;
 
         -webkit-transition: none;
            -moz-transition: none;
@@ -261,8 +217,8 @@ textarea:-moz-placeholder { color:#a9a9a9; }
                 transition: none;
     }
     body .aboutFirst .right a:hover{
-        color: #fff;
         box-shadow: none;
+        color: #fff;
         margin: 20px 0 35px;
 
         -webkit-transition: none;
@@ -272,49 +228,39 @@ textarea:-moz-placeholder { color:#a9a9a9; }
                 transition: none;
     }
     body .darkSecond .wrapper section .left{
-        width: 100%;
         margin-top: 10px;
+        width: 100%;
     }
     body .darkSecond .wrapper section{
-        margin-top: 0;
         margin-bottom: 0;
+        margin-top: 0;
         padding-bottom: 18px;
     }
     body .darkSecond .wrapper section .right{
-        margin: 51px auto 0;
         display: block;
+        margin: 51px auto 0;
     }
     body .darkSecond .wrapper section h4{
         border-bottom: dotted 8px #555;
         margin: auto auto 25px;
         padding-bottom: 8px;
     }
-    body .darkSecond .wrapper section h4:after{
-        display: none;
-    }
+    body .darkSecond .wrapper section h4:after{ display: none; }
     body.works .wrapper div.worksTop h2{
         display: block;
         font-size: 70px;
         text-align: center;
     }
-    body.works div.worksTop{
-        padding: 20px 0;
-    }
+    body.works div.worksTop{ padding: 20px 0; }
     body.works .worksTop p.worksInfo{
-        width: 100%;
-        padding: 5px;
-        margin-bottom: 25px;
         float: none;
+        margin-bottom: 25px;
+        padding: 5px;
+        width: 100%;
     }
-    body div.worksTop ul{
-        display: none;
-    }
-    body div.worksTop ul li a{
-        font-size: 22px;
-    }
-    body .darkSecond{
-        padding: 0;
-    }
+    body div.worksTop ul{ display: none; }
+    body div.worksTop ul li a{ font-size: 22px; }
+    body .darkSecond{ padding: 0; }
     body .darkSecond h4{
         font-size: 25px;
         padding-top: 25px;
@@ -324,16 +270,12 @@ textarea:-moz-placeholder { color:#a9a9a9; }
         display: block;
         margin: 20px auto;
     }
-    body div#colorbox{
-        width: 100%;
-    }
+    body div#colorbox{ width: 100%; }
     body .ss-form-question.left, body .ss-form-question.right{
         display: block;
         width: 100%;
     }
-    html body{
-        background-attachment:fixed;
-    }
+    
 
 }
 /*-----------------------------------------------------------------------------*/
