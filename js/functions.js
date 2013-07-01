@@ -66,7 +66,7 @@ $(document).ready(function (){
     width480Check = window.matchMedia("(max-width: 480px)");
     if (width480Check.matches){
         $.colorbox.remove();
+        }
     }
-}
 });
 })(window.jQuery);
