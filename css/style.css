@@ -364,6 +364,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     body footer .left, body footer .middle, body footer .right{ width: 30%; }
     body.blog .blogContent{ width: 67%; }
     body.blog .blogSide h3{ font-size: 60px; }
+    body .blogContent img.post { max-width:100%; }
     body .blogSide{ width: 29%; }
     body .aboutFirst{ margin: 45px auto 0;}
     body .aboutFirst .left{ width: 28%; }
