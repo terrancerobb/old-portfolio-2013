@@ -421,6 +421,8 @@ textarea:-moz-placeholder { color:#a9a9a9; }
         left: 0; bottom: 0;
         margin-top: 15px;
     }
+    body.works.project .wrapper div.worksTop h2, body.works.project div.worksTop p.worksInfo{ width: 100%; }
+    body.works.project div.worksTop p.worksInfo{ font-size: 19px; }
 }
 /*-----------------------------------------------------------------------------*/
 a, a:hover{
