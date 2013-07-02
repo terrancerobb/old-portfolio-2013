@@ -423,6 +423,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     }
     body.works.project .wrapper div.worksTop h2, body.works.project div.worksTop p.worksInfo{ width: 100%; }
     body.works.project div.worksTop p.worksInfo{ font-size: 19px; }
+    body .ss-q-other{ width: 80%; }
 }
 /*-----------------------------------------------------------------------------*/
 a, a:hover{
