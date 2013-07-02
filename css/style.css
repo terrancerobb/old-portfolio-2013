@@ -33,6 +33,10 @@ textarea:-moz-placeholder { color:#a9a9a9; }
         width: 100%;
         overflow: hidden;
     }
+    body.blog{
+        background-repeat: no-repeat !important;
+        background-attachment: scroll;
+    }
     body header{
         height: auto;
         width: 320px;
@@ -79,7 +83,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
         width: 100%;
     }
     body .homeFirst .left span:first-of-type{ font-size: 59px; }
-    body .homeFirst .left span{ font-size: 52px; }
+    body .homeFirst .left span{ font-size: 51px; }
     body .homeFirst{ margin: 40px auto; }
     body .homeFirst .right p{
         background-color: rgba(0,0,0,0.5);
@@ -232,7 +236,8 @@ textarea:-moz-placeholder { color:#a9a9a9; }
                 transition: none;
     }
     body h2.topTab{
-        font-size: 29px;
+        font-size: 27px;
+        padding: 0;
         width: 160px;
     }
     body .darkSecond .wrapper section .left{
@@ -304,6 +309,17 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     body .contact input[type="checkbox"]{
         width: 20px;
         height: 20px;
+    }
+    body.project.works .wrapper div.worksTop h2{
+        font-size: 30px;
+        text-shadow: none;
+    }
+    body.project.works div.worksTop p.worksInfo{
+        font-size: 16px;
+        width: 100%;
+    }
+    body.project.works .darkSecond .wrapper{
+        padding-bottom: 20px;
     }
 }
 @media only screen and (min-width : 768px) and (max-width : 959px){
@@ -1349,6 +1365,7 @@ body.blog .blogSide section a{
 }
 .blog pre{
     margin: 20px 0;
+     font-size: 15px;
 }
 body.blog a.viewAll{
     display: block;

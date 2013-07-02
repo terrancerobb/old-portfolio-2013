@@ -55,11 +55,11 @@
 <header>
     <div class="innerHeader">
         <div class="mainTitle">
-            <h1><a{% if page.bodyclass == "about" %} class="nologo"{% endif %} href="{{ site.url }}">Terry Robb</a></h1>
+            <h1><a{% if page.bodyclass == "about" %} class="nologo"{% endif %} href="{{ site.url }}/">Terry Robb</a></h1>
         </div>
         <nav>
             <ul>
-                <li{% if page.bodyclass == "homepage" or page.bodyclass == nil %} class="current_page_item"{% endif %}><a href="{{ site.url }}"><i class="icon-home"></i><span>Home</span></a></li><li{% if page.bodyclass contains "blog" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/blog/"><i class="icon-quill"></i><span>Blog</span></a></li><li{% if page.bodyclass == "about" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/about/"><i class="icon-info-sign"></i><span>About</span></a></li><li{% if page.bodyclass contains "works" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/works/"><i class="icon-briefcase"></i><span>Works</span></a></li><li{% if page.bodyclass == "contact" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/contact/"><i class="icon-envelope-2"></i><span>Contact</span></a></li>
+                <li{% if page.bodyclass == "homepage" or page.bodyclass == nil %} class="current_page_item"{% endif %}><a href="{{ site.url }}/"><i class="icon-home"></i><span>Home</span></a></li><li{% if page.bodyclass contains "blog" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/blog/"><i class="icon-quill"></i><span>Blog</span></a></li><li{% if page.bodyclass == "about" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/about/"><i class="icon-info-sign"></i><span>About</span></a></li><li{% if page.bodyclass contains "works" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/works/"><i class="icon-briefcase"></i><span>Works</span></a></li><li{% if page.bodyclass == "contact" %} class="current_page_item"{% endif %}><a href="{{ site.url }}/contact/"><i class="icon-envelope-2"></i><span>Contact</span></a></li>
             </ul>
         </nav>
     </div>
