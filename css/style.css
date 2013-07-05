@@ -429,6 +429,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 @media only screen and (min-width : 1200px) {
     body .wrapper, body .innerHeader{ width: 1200px; }
     body header{ height: 73px; }
+    body div.mainTitle{ width: 530px; }
     body div.mainTitle h1 a:before{
         content:"";
         background-image: url(../img/logo.png);
