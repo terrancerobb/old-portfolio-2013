@@ -77,6 +77,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     body header li.current_page_item i{ color: #fff; }
     div.wrapper{ width: 100%; }
     body .flexslider, body .flex-viewport{ width: 100%; }
+    body .flex-direction-nav a {width: 30px; height: 30px; background-size: auto;}
     /* ========SLIDE 1======== */
     body .homeFirst .left{
         margin-bottom: 20px;
@@ -611,7 +612,7 @@ div#content { width: 960px }
     vertical-align: top;
     width: 530px;
 }
-.slide2 .fadeIn{
+body .fadeIn{
     display: none;
 }
 .slide2 h5{
@@ -625,6 +626,7 @@ div#content { width: 960px }
 }
 .homeFirst a.ctaButton{
     color: #fff;
+    display: inline-block;
     padding: 5px 10px;
     background-color: #D90202;
     font-size: 20px;

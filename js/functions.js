@@ -71,12 +71,12 @@ $(document).ready(function (){
     $('div.flexslider').flexslider({
     animation: "slide",
     animationLoop: true,
-    animationSpeed: 900,
+    animationSpeed: 1200,
     controlNav: false,
     directionNav: true,
     pauseOnHover: true,
     slideshow: true,
-    slideshowSpeed: 5000,
+    slideshowSpeed: 8000,
     touch: true,
     before: function(slider){
      $('.fadeIn').fadeOut(500);
