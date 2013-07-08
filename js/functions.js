@@ -75,7 +75,7 @@ $(document).ready(function (){
     controlNav: false,
     directionNav: true,
     pauseOnHover: true,
-    slideshow: false,
+    slideshow: true,
     slideshowSpeed: 5000,
     touch: true,
     before: function(slider){

@@ -77,7 +77,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     }
     body header li.current_page_item i{ color: #fff; }
     div.wrapper{ width: 100%; }
-    body .flexslider, body .flex-viewport{ min-width: 420px; }
+    body .flexslider, body .flex-viewport{ width: 100%; }
     /* ========SLIDE 1======== */
     body .homeFirst .left{
         margin-bottom: 20px;
