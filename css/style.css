@@ -427,95 +427,9 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     body .ss-q-other{ width: 80%; }
 }
 @media only screen and (min-width : 1200px) {
-    body .wrapper, body .innerHeader{ width: 1200px; }
-    body header{ height: 73px; }
-    body div.mainTitle{ width: 530px; }
-    body div.mainTitle h1 a:before{
-        content:"";
-        background-image: url(../img/logo.png);
-        width: 90px;
-        height: 90px;
-        background-size: 90px;
-        background-repeat: no-repeat;
-    }
-    body div.mainTitle h1 a{
-        font-size: 55px;
-        line-height: 70px;
-        margin-left: 115px;
-    }
-    body .homeFirst .left{
-        width: auto;
-        margin-right: 40px;
-        margin-left: 35px;
-    }
-    body .homeFirst .left span:first-of-type{ font-size: 90px; }
-    body .homeFirst .left span{ font-size: 78px; }
-    body header nav ul li a{ font-size: 25px;}
-    body .homeFirst .right p { width: 615px; }
-    body .homeFirst .right p span{
-        font-size: 45px;
-        line-height: 28px;
-        padding: 10px 15px 11px 10px;
-    }
-    body .homeFirst div.sep{
-        background-size: 500px;
-        height: 42px;
-        width: 500px;
-    }
-    body a.ribbonCTA{
-        font-size: 35px;
-        height: 60px;
-        width: 370px;
-    }
-    body .ribbonCTA:before, body .ribbonCTA:after{
-        border: 30px solid #158093;
-    }
-    body .ribbonCTA:before {
-        left: -80px;
-        border-right-width: 60px;
-        border-left-color: transparent;
-    }
-    body .ribbonCTA:after {
-        right: -80px;
-        border-left-width: 60px;
-        border-right-color: transparent;
-    }
-    body .oneThird{
-        margin: 8px;
-        width: 370px;
-    }
-    body .homeSecond .oneThird img{
-        left: 14%;
-        width: 258px;
-    }
-    body .homeSecond .oneThird p{ font-size: 17px; }
-    body .homeSecond .oneThird h3{ font-size: 32px; }
-    body .homeSecond .oneThird h3 i{ font-size: 30px; }
-    body footer .left, body footer .middle, body footer .right{ width: 380px; }
-    body footer .left ul li a{ font-size: 35px; }
-    body footer h4{
-        font-size: 90px;
-        letter-spacing: 5px;
-    }
-    body footer .right li {
-        font-size: 45px;
-        line-height: 55px;
-    }
-    body footer p{ font-size: 22px; }
+    body.blog .wrapper{ width: 1200px; }
     body.blog .blogContent{ width: 850px; }
     body .blogContent img.post{ max-width: 640px; }
-    body .aboutFirst .right{ width: 815px; }
-    body .aboutFirst .right a{ margin: 30px auto; }
-    body .aboutFirst .right a:hover { margin: 27px auto 3px; }
-    body .darkSecond .wrapper section .left{ width: 840px; }
-    body .darkSecond .wrapper section h4:after{ content: ".................................................."; }
-    body body.works div.worksTop h2{ font-size: 130px; }
-    body.works div.worksTop{ padding: 75px; }
-    body.works  .worksTop p.worksInfo{ width: 472px; }
-    body .ss-form-question.left, body .ss-form-question.right{
-        margin: 10px;
-        padding: 40px;
-    }
 
 }
 /*-----------------------------------------------------------------------------*/
