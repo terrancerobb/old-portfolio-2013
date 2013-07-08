@@ -70,7 +70,21 @@ $(document).ready(function (){
     }
     $('div.flexslider').flexslider({
     animation: "slide",
-    directionNav: true
+    animationLoop: true,
+    animationSpeed: 900,
+    controlNav: false,
+    directionNav: true,
+    pauseOnHover: true,
+    slideshow: false,
+    slideshowSpeed: 5000,
+    touch: true,
+    before: function(slider){
+     $('.fadeIn').fadeOut(500);
+    },
+    after: function(slider){
+     curSlide = slider.slides[slider.currentSlide];
+     $(curSlide).find('.fadeIn').fadeIn(300).css("display","inline-block");
+    }
     });
 });
 })(window.jQuery);
