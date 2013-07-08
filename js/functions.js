@@ -68,5 +68,9 @@ $(document).ready(function (){
         $.colorbox.remove();
         }
     }
+    $('div.flexslider').flexslider({
+    animation: "slide",
+    directionNav: true
+    });
 });
 })(window.jQuery);

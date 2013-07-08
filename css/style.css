@@ -528,7 +528,7 @@ div.mainTitle h1 a {
 div#content { width: 960px }
 .homeFirst {
     color: #fff;
-    margin: 75px auto;
+    margin: 75px auto auto;
 }
 .homeFirst .left {
     display: inline-block;
