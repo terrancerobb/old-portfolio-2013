@@ -489,6 +489,7 @@ body.homepage {
     background-image: url(../img/homeBG.jpg);
     background-position: top center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 header {
     margin: 0 auto;
