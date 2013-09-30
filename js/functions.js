@@ -55,6 +55,14 @@
             $('html, body').animate({scrollTop:$('#video').position().top}, 'slow');
             return false;
         });
+        /* Parallax Scrolling */
+        var is_root = location.pathname == "/";
+        if(is_root){
+            window.onscroll = function() {
+                var speed = 4.0;
+                document.body.style.backgroundPosition = "center " + (-window.pageYOffset / speed) + "px";
+            }
+        }
     });
 
 $(document).ready(function (){
