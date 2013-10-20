@@ -57,10 +57,10 @@
         });
         /* Parallax Scrolling */
         var is_root = location.pathname == "/";
-        if(is_root){
+        if(is_root && $(window).width() > 960){
             window.onscroll = function() {
-                var speed = 4.0;
-                document.body.style.backgroundPosition = "center " + (-window.pageYOffset / speed) + "px";
+                var speed = 0.3;
+                document.body.style.backgroundPosition = "center " + (-window.pageYOffset * speed) + "px";
             }
         }
     });

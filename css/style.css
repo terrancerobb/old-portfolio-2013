@@ -848,13 +848,6 @@ body.about {
     display: inline-block;
     vertical-align: top;
 }
-.aboutFirst .left img:hover{
-    -webkit-transition: all cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.9s;
-       -moz-transition: all cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.9s;
-        -ms-transition: all cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.9s;
-         -o-transition: all cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.9s;
-            transition: all cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.9s;
-}
 .aboutFirst .left img{
     -webkit-transition: all ease-in-out 0.3s;
        -moz-transition: all ease-in-out 0.3s;
@@ -863,6 +856,11 @@ body.about {
             transition: all ease-in-out 0.3s;
 }
 .aboutFirst .left img:hover{
+    -webkit-transition: all cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.9s;
+       -moz-transition: all cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.9s;
+        -ms-transition: all cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.9s;
+         -o-transition: all cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.9s;
+            transition: all cubic-bezier(1.000, -0.530, 0.405, 1.425) 0.9s;
     -webkit-transform-origin:60% 70%;
        -moz-transform-origin:60% 70%;
         -ms-transform-origin:60% 70%;
