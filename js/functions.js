@@ -77,9 +77,8 @@ $(document).ready(function (){
         }
     }
     $('div.flexslider').flexslider({
-    animation: "slide",
     animationLoop: true,
-    animationSpeed: 1200,
+    animationSpeed: 400,
     controlNav: false,
     directionNav: true,
     pauseOnHover: true,
