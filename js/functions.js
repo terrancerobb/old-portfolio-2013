@@ -1,4 +1,3 @@
-// remap jQuery to $
 (function($){
 
     $(window).load(function() {
@@ -14,55 +13,41 @@
         .css("left", $(".current_page_item").position().left)
         .data("origLeft", $magicLine.position().left)
         .data("origWidth", $magicLine.width());
-        
+
         $("header .innerHeader ul li").hover(function() {
             $el = $(this);
             leftPos = $el.position().left;
             newWidth = $el.width();
-            $magicLine.stop().animate({
+            $magicLine.stop().velocity({
                 left: leftPos,
                 width: newWidth
             });
         }, function() {
-            $magicLine.stop().animate({
+            $magicLine.stop().velocity({
                 left: $magicLine.data("origLeft"),
                 width: $magicLine.data("origWidth")
-            });    
+            });
         });
+
         /* Back to top code */
         $('a.back-to-top').click(function(e){
-            $('html, body').animate({scrollTop:0}, 'slow');
+            $('html, body').velocity({scrollTop:0}, 'slow');
             e.preventDefault();
         });
 
-        $(window).scroll(function() {
-            if ($('body').offset().top < $(window).scrollTop()) {
-                $('.back-to-top').slideDown('fast');
-            } else {
-                $('.back-to-top').slideUp('fast');
-            }
-        });
         /* Works page scrolling code */
         $('a.gfx').click(function(){
-            $('html, body').animate({scrollTop:$('#graphic-and-web').position().top}, 'slow');
+            $('html, body').velocity({scrollTop:$('#graphic-and-web').position().top}, 'slow');
             return false;
         });
         $('a.music').click(function(){
-            $('html, body').animate({scrollTop:$('#music-and-audio').position().top}, 'slow');
+            $('html, body').velocity({scrollTop:$('#music-and-audio').position().top}, 'slow');
             return false;
         });
         $('a.video').click(function(){
-            $('html, body').animate({scrollTop:$('#video').position().top}, 'slow');
+            $('html, body').velocity({scrollTop:$('#video').position().top}, 'slow');
             return false;
         });
-        /* Parallax Scrolling */
-        var is_root = location.pathname == "/";
-        if(is_root && $(window).width() > 960){
-            window.onscroll = function() {
-                var speed = 0.3;
-                document.body.style.backgroundPosition = "center " + (-window.pageYOffset * speed) + "px";
-            }
-        }
     });
 
 $(document).ready(function (){
@@ -76,22 +61,5 @@ $(document).ready(function (){
         $.colorbox.remove();
         }
     }
-    $('div.flexslider').flexslider({
-    animationLoop: true,
-    animationSpeed: 400,
-    controlNav: false,
-    directionNav: true,
-    pauseOnHover: true,
-    slideshow: false,
-    slideshowSpeed: 8000,
-    touch: true,
-    before: function(slider){
-     $('.fadeIn').fadeOut(500);
-    },
-    after: function(slider){
-     curSlide = slider.slides[slider.currentSlide];
-     $(curSlide).find('.fadeIn').fadeIn(300).css("display","inline-block");
-    }
-    });
 });
 })(window.jQuery);
